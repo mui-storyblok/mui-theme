@@ -107,7 +107,7 @@
     "rff-wrapper": "^1.0.10"
   },
   "scripts": {
-    "test-ci": "react-scripts test --env=jsdom --coverage --runInBand --testPathPattern=src/lib/components",
+    "test-ci": "react-scripts test --env=jsdom --coverage --runInBand --testPathPattern=src",
     "start": "react-scripts start",
     "test-report": "react-scripts test --watchAll=false --coverage",
     "build": "react-scripts build",
