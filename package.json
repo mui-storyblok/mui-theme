@@ -2,6 +2,21 @@
   "name": "mui-theme",
   "version": "0.1.0",
   "private": true,
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!storyblok/*.{js,jsx}",
+      "!src/setupTests.js",
+      "!src/index.js",
+      "!src/styleguide/*",
+      "!src/serviceWorker.js",
+      "!src/defaultMuiTheme.js"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ]
+  },
   "eslintConfig": {
     "extends": "airbnb",
     "parser": "babel-eslint",
@@ -93,6 +108,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "test-report": "react-scripts test --watchAll=false --coverage",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

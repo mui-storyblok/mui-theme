@@ -3,16 +3,18 @@ import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
 import FormBody from './FormBody';
 
-function setup() {
-  const props = {
-    form: {
-      getState: jest.fn(() => ({
-        values: {
-          theme: {},
-          storyBlokAccessToken: 'wasd',
-        },
-      })),
+const initForm = {
+  getState: jest.fn(() => ({
+    values: {
+      theme: {},
+      storyBlokAccessToken: 'wasd',
     },
+  })),
+};
+
+function setup(form = initForm) {
+  const props = {
+    form,
   };
   const comp = mount(<FormBody {...props} />);
   return { comp, props };

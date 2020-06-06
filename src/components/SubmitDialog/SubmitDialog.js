@@ -10,6 +10,7 @@ import copy from 'copy-to-clipboard';
 const SubmitDialog = ({ theme, open, handleClose }) => {
   const copyTheme = () => {
     copy(JSON.stringify(theme));
+    handleClose();
   };
 
   return (
@@ -19,11 +20,11 @@ const SubmitDialog = ({ theme, open, handleClose }) => {
         {JSON.stringify(theme)}
       </DialogContent>
       <DialogActions>
-        <Button onClick={handleClose} color="secondary">
+        <Button data-testid="closeSubmitDialog" onClick={handleClose} color="secondary">
           close
         </Button>
-        <Button onClick={copyTheme}>
-          copy
+        <Button data-testid="copy" onClick={copyTheme}>
+          copy object and close dialog
         </Button>
       </DialogActions>
     </Dialog>
