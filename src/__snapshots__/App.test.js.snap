@@ -13,13 +13,7 @@ exports[`<App /> snapshot 1`] = `
     }
   >
     <div
-      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
-      style={
-        Object {
-          "maxHeight": "1000px",
-          "overflow": "scroll",
-        }
-      }
+      className="MuiGrid-root container MuiGrid-item MuiGrid-grid-xs-4"
     >
       <div
         className="MuiPaper-root MuiExpansionPanel-root MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded"
@@ -13522,13 +13516,7 @@ exports[`<App /> snapshot 1`] = `
       </button>
     </div>
     <div
-      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8"
-      style={
-        Object {
-          "maxHeight": "1000px",
-          "overflow": "scroll",
-        }
-      }
+      className="MuiGrid-root container MuiGrid-item MuiGrid-grid-xs-8"
     >
       <div
         className="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"

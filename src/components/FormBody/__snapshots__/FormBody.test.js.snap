@@ -10,13 +10,7 @@ exports[`<FormBody /> snapshot 1`] = `
   }
 >
   <div
-    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4"
-    style={
-      Object {
-        "maxHeight": "1000px",
-        "overflow": "scroll",
-      }
-    }
+    className="MuiGrid-root container MuiGrid-item MuiGrid-grid-xs-4"
   >
     <button
       className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
@@ -44,13 +38,7 @@ exports[`<FormBody /> snapshot 1`] = `
     </button>
   </div>
   <div
-    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8"
-    style={
-      Object {
-        "maxHeight": "1000px",
-        "overflow": "scroll",
-      }
-    }
+    className="MuiGrid-root container MuiGrid-item MuiGrid-grid-xs-8"
   >
     <div
       className="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
