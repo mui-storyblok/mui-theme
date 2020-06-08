@@ -5,6 +5,11 @@ import SubmitDialog from './SubmitDialog';
 
 jest.mock('../../../node_modules/copy-to-clipboard');
 
+const callClose = (comp, props, eleString) => {
+  comp.find(eleString).first().simulate('click');
+  expect(props.handleClose).toBeCalled();
+};
+
 function setup(open = true) {
   const props = {
     open,
@@ -20,19 +25,16 @@ describe('<SubmitDialog />', () => {
     expect(comp).toBeDefined();
   });
 
-  it('close', () => {
+  it('callClose on clicking closeSubmitDialog', () => {
     const { comp, props } = setup();
-    comp.find('[data-testid="closeSubmitDialog"]').first().simulate('click');
-    expect(props.handleClose).toBeCalled();
+    callClose(comp, props, '[data-testid="closeSubmitDialog"]');
   });
 
 
-  it('copy', () => {
+  it('callClose on clicking copy', () => {
     const { comp, props } = setup();
-    comp.find('[data-testid="copy"]').first().simulate('click');
-    expect(props.handleClose).toBeCalled();
+    callClose(comp, props, '[data-testid="copy"]');
   });
-
 
   test('snapshot', () => {
     const { props } = setup(false);
