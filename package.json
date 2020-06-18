@@ -99,7 +99,7 @@
     "@testing-library/user-event": "^7.2.1",
     "copy-to-clipboard": "^3.3.1",
     "enzyme-adapter-react-16": "^1.15.2",
-    "mui-storyblok": "^1.0.47",
+    "mui-storyblok": "^1.0.59",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
