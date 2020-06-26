@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Form } from 'rff-wrapper';
+import { BrowserRouter } from 'react-router-dom';
 import FormBody from './components/FormBody/FormBody';
 import SubmitDialog from './components/SubmitDialog/SubmitDialog';
 import theme from './defaultMuiTheme';
@@ -19,7 +20,7 @@ const App = () => {
   };
 
   return (
-    <>
+    <BrowserRouter>
       <SubmitDialog
         handleClose={handleClose}
         theme={state.theme}
@@ -34,7 +35,7 @@ const App = () => {
       >
         <FormBody />
       </Form>
-    </>
+    </BrowserRouter>
   );
 };
 
