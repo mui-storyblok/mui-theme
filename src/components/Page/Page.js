@@ -3,13 +3,12 @@ import { MuiStoryblok } from 'mui-storyblok';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 
-const Page = ({ form, location }) => {
-  const formState = form.getState();
+const Page = ({ accessToken, theme, location }) => {
   return (
     <MuiStoryblok
       location={location}
-      theme={formState.values.theme}
-      accessToken={formState.values.storyBlokAccessToken}
+      theme={theme}
+      accessToken={accessToken}
       version="draft"
     />
   );
@@ -18,12 +17,10 @@ const Page = ({ form, location }) => {
 export default withRouter(Page);
 
 Page.propTypes = {
-  location: PropTypes.shape.isRequired,
-  form: PropTypes.shape({
-    getState: PropTypes.func,
-  }),
+  accessToken: PropTypes.string.isRequired,
+  location: PropTypes.shape().isRequired,
+  theme: PropTypes.shape().isRequired,
 };
 
 Page.defaultProps = {
-  form: {},
 };
