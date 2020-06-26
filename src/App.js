@@ -1,16 +1,22 @@
 import React, { useState } from 'react';
-import { Form } from 'rff-wrapper';
-import FormBody from './components/FormBody/FormBody';
+import { BrowserRouter } from 'react-router-dom';
+import { Grid } from '@material-ui/core';
+import ThemeForm from './components/ThemeForm/ThemeForm';
+import Page from './components/Page/Page';
 import SubmitDialog from './components/SubmitDialog/SubmitDialog';
 import theme from './defaultMuiTheme';
 
 const App = () => {
-  const [state, setState] = useState({ open: false, theme });
+  const [state, setState] = useState({
+    open: false,
+    theme,
+    accessToken: process.env.REACT_APP_STORYBLOK_ACCESS_TOKEN,
+  });
 
   const onSubmit = async (values) => {
     setState({
-      open: true,
       theme: values.theme,
+      accessToken: values.storyBlokAccessToken,
     });
   };
 
@@ -19,25 +25,31 @@ const App = () => {
   };
 
   return (
-    <>
+    <BrowserRouter>
       <SubmitDialog
         handleClose={handleClose}
         theme={state.theme}
         open={state.open}
       />
-      <Form
-        onSubmit={onSubmit}
-        initialValues={{
-          storyBlokAccessToken: process.env.REACT_APP_STORYBLOK_ACCESS_TOKEN,
-          theme,
-        }}
+      <Grid
+        container
+        direction="row"
+        justify="flex-start"
+        alignItems="flex-start"
       >
-        <FormBody />
-      </Form>
-    </>
+        <Grid item xs={4} style={{ overflow: 'scroll', maxHeight: '1000px', marginTop: '100px' }}>
+          <ThemeForm onSubmit={onSubmit} theme={theme} />
+        </Grid>
+        <Grid item xs={8} style={{ overflow: 'scroll', maxHeight: '1000px' }}>
+          <Page accessToken={state.accessToken} theme={state.theme} />
+        </Grid>
+      </Grid>
+    </BrowserRouter>
   );
 };
 
 export default App;
 
 App.propTypes = {};
+
+// </Grid>;

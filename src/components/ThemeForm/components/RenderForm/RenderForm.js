@@ -2,6 +2,7 @@ import React from 'react';
 import {
   MuiInput,
   MuiSubmit,
+  RFFFieldArray,
 } from 'rff-wrapper';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
@@ -12,6 +13,18 @@ import Grid from '@material-ui/core/Grid';
 import PropTypes from 'prop-types';
 
 const renderInput = (value, name) => {
+  if (name.includes('shadows')) {
+    console.log('NAME: ', name);
+    console.log('VALUE: ', value);
+    return (
+      <MuiInput
+        fullWidth
+        type="text"
+        name={name}
+      />
+    );
+  }
+
   if (typeof value === 'string') {
     if (value.includes('#') || value.includes('rgb')) {
       return (<MuiInput fullWidth type="color" name={name} value={value} />);
@@ -32,6 +45,7 @@ const renderInput = (value, name) => {
 };
 
 const loopValues = (values, key = 'theme') => Object.entries(values).map((item) => {
+  // console.log(item);
   const name = key ? `${key}.${item[0]}` : item[0];
 
   if (item[1] !== Object(item[1])) {
@@ -61,7 +75,7 @@ const loopValues = (values, key = 'theme') => Object.entries(values).map((item) 
 const RenderForm = ({ form }) => (
   <>
     {loopValues(form.getState().values.theme)}
-    <MuiSubmit />
+    <MuiSubmit buttonText="Update Theme" />
   </>
 );
 
