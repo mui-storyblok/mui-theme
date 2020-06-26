@@ -11,7 +11,9 @@ export const ThemeForm = ({ onSubmit, theme }) => (
       theme,
     }}
   >
-    <RenderForm />
+    <>
+    {/* <RenderForm /> */}
+    </>
   </Form>
 );
 

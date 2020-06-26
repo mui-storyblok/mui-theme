@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { BrowserRouter } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
+import { withRouter, BrowserRouter } from 'react-router-dom';
 import { Grid } from '@material-ui/core';
 import ThemeForm from './components/ThemeForm/ThemeForm';
 import Page from './components/Page/Page';
@@ -25,7 +26,7 @@ const App = () => {
   };
 
   return (
-    <BrowserRouter>
+    <>
       <SubmitDialog
         handleClose={handleClose}
         theme={state.theme}
@@ -44,12 +45,10 @@ const App = () => {
           <Page accessToken={state.accessToken} theme={state.theme} />
         </Grid>
       </Grid>
-    </BrowserRouter>
+    </>
   );
 };
 
 export default App;
 
 App.propTypes = {};
-
-// </Grid>;

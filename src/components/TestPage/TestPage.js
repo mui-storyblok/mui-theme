@@ -3,25 +3,24 @@ import { MuiStoryblok } from 'mui-storyblok';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 
-const Page = ({ accessToken, theme, location }) => {
+const TestPage = ({ accessToken, theme, location }) => {
   console.log(location);
   return (
     <MuiStoryblok
       location={location}
-      theme={theme}
-      accessToken={accessToken}
+      accessToken="xxI9nWQgRHQvoxTRac2Hugtt"
       version="draft"
     />
   );
 };
 
-export default withRouter(Page);
+export default withRouter(TestPage);
 
-Page.propTypes = {
-  accessToken: PropTypes.string.isRequired,
+TestPage.propTypes = {
+  // accessToken: PropTypes.string.isRequired,
   location: PropTypes.shape().isRequired,
-  theme: PropTypes.shape().isRequired,
+  // theme: PropTypes.shape().isRequired,
 };
 
-Page.defaultProps = {
+TestPage.defaultProps = {
 };

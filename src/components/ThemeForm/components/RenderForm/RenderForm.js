@@ -14,8 +14,6 @@ import PropTypes from 'prop-types';
 
 const renderInput = (value, name) => {
   if (name.includes('shadows')) {
-    console.log('NAME: ', name);
-    console.log('VALUE: ', value);
     return (
       <MuiInput
         fullWidth
@@ -27,7 +25,7 @@ const renderInput = (value, name) => {
 
   if (typeof value === 'string') {
     if (value.includes('#') || value.includes('rgb')) {
-      return (<MuiInput fullWidth type="color" name={name} value={value} />);
+      return (<MuiInput fullWidth type="color" name={name} value={value} key={Math.random()} />);
     }
   }
 
@@ -74,7 +72,7 @@ const loopValues = (values, key = 'theme') => Object.entries(values).map((item) 
 
 const RenderForm = ({ form }) => (
   <>
-    {loopValues(form.getState().values.theme)}
+    {form.getState && loopValues(form.getState().values.theme)}
     <MuiSubmit buttonText="Update Theme" />
   </>
 );
@@ -83,6 +81,10 @@ export default RenderForm;
 
 RenderForm.propTypes = {
   form: PropTypes.shape({
-    getState: PropTypes.func.isRequired,
-  }).isRequired,
+    getState: PropTypes.func,
+  }),
 };
+
+RenderForm.defaultProps = {
+  form: {},
+}
