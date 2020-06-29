@@ -22,7 +22,7 @@ exports[`<RenderForm /> snapshot 1`] = `
   <span
     className="MuiButton-label"
   >
-    submit
+    Update Theme
   </span>
 </button>
 `;
