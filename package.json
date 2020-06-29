@@ -99,12 +99,12 @@
     "@testing-library/user-event": "^7.2.1",
     "copy-to-clipboard": "^3.3.1",
     "enzyme-adapter-react-16": "^1.15.2",
-    "mui-storyblok": "^1.0.47",
+    "mui-storyblok": "^1.0.83",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "rff-wrapper": "^1.0.10"
+    "rff-wrapper": "^1.0.15"
   },
   "scripts": {
     "test-ci": "react-scripts test --env=jsdom --coverage --runInBand --testPathPattern=src",
