@@ -14,14 +14,14 @@ import PropTypes from 'prop-types';
 
 const renderInput = (value, name) => {
   if (name.includes('shadows')) {
-    console.log('NAME: ', name);
-    console.log('VALUE: ', value);
     return (
-      <MuiInput
-        fullWidth
-        type="text"
-        name={name}
-      />
+      <div style={{ width: '100%' }}>
+        <RFFFieldArray fieldArrayName="theme.shadows">
+          <MuiInput
+            fullWidth
+          />
+        </RFFFieldArray>
+      </div>
     );
   }
 
@@ -45,31 +45,53 @@ const renderInput = (value, name) => {
 };
 
 const loopValues = (values, key = 'theme') => Object.entries(values).map((item) => {
-  // console.log(item);
   const name = key ? `${key}.${item[0]}` : item[0];
+
+  if (item[0] === 'shadows' && Array.isArray(item[1])) {
+    return (
+      <ExpansionPanel style={{ width: '100%' }} key={name}>
+        <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography>{name}</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Grid
+            container
+            direction="column"
+            justify="center"
+            alignItems="center"
+          >
+            {renderInput(item[1], 'shadows')}
+          </Grid>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+    );
+  }
 
   if (item[1] !== Object(item[1])) {
     return renderInput(item[1], name);
   }
-  return (
-    <ExpansionPanel style={{ width: '100%' }} key={name}>
-      <ExpansionPanelSummary
-        expandIcon={<ExpandMoreIcon />}
-      >
-        <Typography>{name}</Typography>
-      </ExpansionPanelSummary>
-      <ExpansionPanelDetails>
-        <Grid
-          container
-          direction="column"
-          justify="center"
-          alignItems="center"
+
+  if (item[1] !== Array.isArray(item[1]) && item[0]) {
+    return (
+      <ExpansionPanel style={{ width: '100%' }} key={name}>
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
         >
-          {loopValues(item[1], name)}
-        </Grid>
-      </ExpansionPanelDetails>
-    </ExpansionPanel>
-  );
+          <Typography>{name}</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Grid
+            container
+            direction="column"
+            justify="center"
+            alignItems="center"
+          >
+            {loopValues(item[1], name)}
+          </Grid>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+    );
+  }
 });
 
 const RenderForm = ({ form }) => (

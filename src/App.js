@@ -51,5 +51,3 @@ const App = () => {
 export default App;
 
 App.propTypes = {};
-
-// </Grid>;
