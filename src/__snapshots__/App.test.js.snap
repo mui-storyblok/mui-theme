@@ -5456,13 +5456,7 @@ exports[`<App /> snapshot 1`] = `
                         }
                       }
                     >
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -5531,13 +5525,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -5606,13 +5594,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -5681,13 +5663,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -5756,13 +5732,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -5831,13 +5801,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -5906,13 +5870,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -5981,13 +5939,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -6056,13 +6008,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -6131,13 +6077,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -6206,13 +6146,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -6281,13 +6215,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -6356,13 +6284,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -6431,13 +6353,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -6506,13 +6422,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -6581,13 +6491,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -6656,13 +6560,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -6731,13 +6629,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -6806,13 +6698,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -6881,13 +6767,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -6956,13 +6836,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -7031,13 +6905,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -7106,13 +6974,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -7181,13 +7043,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
@@ -7256,13 +7112,7 @@ exports[`<App /> snapshot 1`] = `
                           </div>
                         </div>
                       </div>
-                      <div
-                        style={
-                          Object {
-                            "width": "100%",
-                          }
-                        }
-                      >
+                      <div>
                         <div
                           className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
                           data-testid="muiinput"
