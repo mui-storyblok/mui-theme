@@ -29,12 +29,10 @@ export const validator = (value, name) => {
   if (name.includes('fontFamily')) {
     const result = fontRE.exec(value);
     if (result === null) return 'fontFamily format invalid.';
-  }
-  if (name.includes('easing')) {
+  } else if (name.includes('easing')) {
     const result = easingRE.exec(value);
     if (result === null) return 'easing format invalid.';
-  }
-  if (value === undefined) return 'Value is Required.';
+  } else if (value === undefined) return 'Value is Required.';
   return undefined;
 };
 
