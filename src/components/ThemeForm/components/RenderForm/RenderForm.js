@@ -23,11 +23,16 @@ export const shadowValidator = (shadow) => {
   return undefined;
 };
 
-export const fontValidator = (value, name) => {
+export const validator = (value, name) => {
   const fontRE = new RegExp(/('(\w{1,20}-\w{1,20}|\w{1,20})',\s){3}'(\w{1,20}-\w{1,20}|\w{1,20})'/);
+  const easingRE = new RegExp(/cubic-bezier\(((\d*\.\d*|\d*),\s){3}(\d*\.\d*|\d)\)/);
   if (name.includes('fontFamily')) {
     const result = fontRE.exec(value);
     if (result === null) return 'fontFamily format invalid.';
+  }
+  if (name.includes('easing')) {
+    const result = easingRE.exec(value);
+    if (result === null) return 'easing format invalid.';
   }
   if (value === undefined) return 'Value is Required.';
   return undefined;
@@ -63,7 +68,7 @@ const renderInput = (value, name) => {
     );
   }
 
-  return (<MuiInput fullWidth name={name} value={value} validate={() => fontValidator(value, name)} />);
+  return (<MuiInput fullWidth name={name} value={value} validate={() => validator(value, name)} />);
 };
 
 const loopValues = (values, key = 'theme') => Object.entries(values).map((item) => {

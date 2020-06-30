@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
-import RenderForm, { shadowValidator, fontValidator } from './RenderForm';
+import RenderForm, { shadowValidator, validator } from './RenderForm';
 
 function setup() {
   const props = {
@@ -36,12 +36,15 @@ describe('<RenderForm />', () => {
     expect(result).toEqual(expected);
   });
 
-  it('should return invalid format message if invalid font family format input', () => {
-    const result = fontValidator('apples', 'fontFamily');
+  it('should return invalid format message if invalid font family format input or invalid easing input', () => {
+    const result = validator('apples', 'fontFamily');
     const expected = 'fontFamily format invalid.';
     expect(result).toEqual(expected);
 
-    const undefinedInput = fontValidator(undefined, 'someName');
+    const undefinedInput = validator(undefined, 'someName');
     expect(undefinedInput).toEqual('Value is Required.');
+
+    const easingResult = validator('apples', 'easing');
+    expect(easingResult).toEqual('easing format invalid.');
   });
 });
