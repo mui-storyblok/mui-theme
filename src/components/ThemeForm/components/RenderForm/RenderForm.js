@@ -13,6 +13,16 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Grid from '@material-ui/core/Grid';
 import PropTypes from 'prop-types';
 
+const shadowValidator = (shadow) => {
+  const shadowRE = new RegExp(/-?\d*px -?\d*px -?\d*px -?\d*px rgba\(\d*,\d*,\d*,(\d*\.\d*)\),-?\d*px -?\d*px -?\d*px -?\d*px rgba\(\d*,\d*,\d*,(\d*\.\d*)\),-?\d*px -?\d*px -?\d*px -?\d*px rgba\(\d*,\d*,\d*,(\d*\.\d*)\)/);
+  const result = shadowRE.exec(shadow);
+  if (shadow === 'none') return undefined;
+  if (result === null) {
+    return 'Shadow Format Invalid.';
+  }
+  return undefined;
+};
+
 const renderInput = (value, name) => {
   if (name.includes('shadows')) {
     return (
@@ -20,6 +30,7 @@ const renderInput = (value, name) => {
         <RFFFieldArray fieldArrayName="theme.shadows">
           <MuiInput
             fullWidth
+            validate={shadowValidator}
           />
         </RFFFieldArray>
       </div>
