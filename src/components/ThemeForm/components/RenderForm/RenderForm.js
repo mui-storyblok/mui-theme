@@ -23,6 +23,16 @@ const shadowValidator = (shadow) => {
   return undefined;
 };
 
+const fontValidator = (value, name) => {
+  const fontRE = new RegExp(/('(\w{1,20}-\w{1,20}|\w{1,20})',\s){3}'(\w{1,20}-\w{1,20}|\w{1,20})'/);
+  if (name.includes('fontFamily')) {
+    const result = fontRE.exec(value);
+    if (result === null) return 'fontFamily format invalid.';
+  }
+  if (value === undefined) return 'Value is Required.';
+  return undefined;
+};
+
 const renderInput = (value, name) => {
   if (name.includes('shadows')) {
     return (
@@ -53,7 +63,7 @@ const renderInput = (value, name) => {
     );
   }
 
-  return (<MuiInput fullWidth name={name} value={value} />);
+  return (<MuiInput fullWidth name={name} value={value} validate={() => fontValidator(value, name)} />);
 };
 
 const loopValues = (values, key = 'theme') => Object.entries(values).map((item) => {
