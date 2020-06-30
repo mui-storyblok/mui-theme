@@ -41,10 +41,7 @@ const renderInput = (value, name) => {
     return (
       <div style={{ width: '100%' }}>
         <RFFFieldArray fieldArrayName="theme.shadows">
-          <MuiInput
-            fullWidth
-            validate={shadowValidator}
-          />
+          <MuiInput fullWidth validate={shadowValidator} />
         </RFFFieldArray>
       </div>
     );
@@ -58,11 +55,7 @@ const renderInput = (value, name) => {
 
   if (!isNaN(value)) {
     return (
-      <MuiInput
-        fullWidth
-        type="number"
-        name={name}
-      />
+      <MuiInput fullWidth type="number" name={name} />
     );
   }
 
