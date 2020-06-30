@@ -8303,7 +8303,7 @@ exports[`<App /> snapshot 1`] = `
                                           "onChange": [Function],
                                           "onFocus": [Function],
                                           "type": "text",
-                                          "value": "Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "value": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                         },
                                         "meta": Object {
                                           "active": false,
@@ -8311,7 +8311,7 @@ exports[`<App /> snapshot 1`] = `
                                           "dirty": false,
                                           "dirtySinceLastSubmit": false,
                                           "error": undefined,
-                                          "initial": "Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "initial": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                           "invalid": false,
                                           "length": undefined,
                                           "modified": false,
@@ -8354,7 +8354,7 @@ exports[`<App /> snapshot 1`] = `
                                         required={false}
                                         rows=""
                                         type="text"
-                                        value="Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif"
+                                        value="'Roboto', 'Helvetica', 'Arial', 'sans-serif'"
                                       />
                                     </div>
                                   </div>
@@ -8742,7 +8742,7 @@ exports[`<App /> snapshot 1`] = `
                                           "onChange": [Function],
                                           "onFocus": [Function],
                                           "type": "text",
-                                          "value": "Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "value": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                         },
                                         "meta": Object {
                                           "active": false,
@@ -8750,7 +8750,7 @@ exports[`<App /> snapshot 1`] = `
                                           "dirty": false,
                                           "dirtySinceLastSubmit": false,
                                           "error": undefined,
-                                          "initial": "Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "initial": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                           "invalid": false,
                                           "length": undefined,
                                           "modified": false,
@@ -8793,7 +8793,7 @@ exports[`<App /> snapshot 1`] = `
                                         required={false}
                                         rows=""
                                         type="text"
-                                        value="Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif"
+                                        value="'Roboto', 'Helvetica', 'Arial', 'sans-serif'"
                                       />
                                     </div>
                                   </div>
@@ -9181,7 +9181,7 @@ exports[`<App /> snapshot 1`] = `
                                           "onChange": [Function],
                                           "onFocus": [Function],
                                           "type": "text",
-                                          "value": "Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "value": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                         },
                                         "meta": Object {
                                           "active": false,
@@ -9189,7 +9189,7 @@ exports[`<App /> snapshot 1`] = `
                                           "dirty": false,
                                           "dirtySinceLastSubmit": false,
                                           "error": undefined,
-                                          "initial": "Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "initial": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                           "invalid": false,
                                           "length": undefined,
                                           "modified": false,
@@ -9232,7 +9232,7 @@ exports[`<App /> snapshot 1`] = `
                                         required={false}
                                         rows=""
                                         type="text"
-                                        value="Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif"
+                                        value="'Roboto', 'Helvetica', 'Arial', 'sans-serif'"
                                       />
                                     </div>
                                   </div>
@@ -9620,7 +9620,7 @@ exports[`<App /> snapshot 1`] = `
                                           "onChange": [Function],
                                           "onFocus": [Function],
                                           "type": "text",
-                                          "value": "Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "value": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                         },
                                         "meta": Object {
                                           "active": false,
@@ -9628,7 +9628,7 @@ exports[`<App /> snapshot 1`] = `
                                           "dirty": false,
                                           "dirtySinceLastSubmit": false,
                                           "error": undefined,
-                                          "initial": "Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "initial": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                           "invalid": false,
                                           "length": undefined,
                                           "modified": false,
@@ -9671,7 +9671,7 @@ exports[`<App /> snapshot 1`] = `
                                         required={false}
                                         rows=""
                                         type="text"
-                                        value="Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif"
+                                        value="'Roboto', 'Helvetica', 'Arial', 'sans-serif'"
                                       />
                                     </div>
                                   </div>
@@ -10059,7 +10059,7 @@ exports[`<App /> snapshot 1`] = `
                                           "onChange": [Function],
                                           "onFocus": [Function],
                                           "type": "text",
-                                          "value": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "value": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                         },
                                         "meta": Object {
                                           "active": false,
@@ -10067,7 +10067,7 @@ exports[`<App /> snapshot 1`] = `
                                           "dirty": false,
                                           "dirtySinceLastSubmit": false,
                                           "error": undefined,
-                                          "initial": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "initial": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                           "invalid": false,
                                           "length": undefined,
                                           "modified": false,
@@ -10110,7 +10110,7 @@ exports[`<App /> snapshot 1`] = `
                                         required={false}
                                         rows=""
                                         type="text"
-                                        value="\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif"
+                                        value="'Roboto', 'Helvetica', 'Arial', 'sans-serif'"
                                       />
                                     </div>
                                   </div>
@@ -10498,7 +10498,7 @@ exports[`<App /> snapshot 1`] = `
                                           "onChange": [Function],
                                           "onFocus": [Function],
                                           "type": "text",
-                                          "value": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "value": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                         },
                                         "meta": Object {
                                           "active": false,
@@ -10506,7 +10506,7 @@ exports[`<App /> snapshot 1`] = `
                                           "dirty": false,
                                           "dirtySinceLastSubmit": false,
                                           "error": undefined,
-                                          "initial": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "initial": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                           "invalid": false,
                                           "length": undefined,
                                           "modified": false,
@@ -10549,7 +10549,7 @@ exports[`<App /> snapshot 1`] = `
                                         required={false}
                                         rows=""
                                         type="text"
-                                        value="\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif"
+                                        value="'Roboto', 'Helvetica', 'Arial', 'sans-serif'"
                                       />
                                     </div>
                                   </div>
@@ -10937,7 +10937,7 @@ exports[`<App /> snapshot 1`] = `
                                           "onChange": [Function],
                                           "onFocus": [Function],
                                           "type": "text",
-                                          "value": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "value": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                         },
                                         "meta": Object {
                                           "active": false,
@@ -10945,7 +10945,7 @@ exports[`<App /> snapshot 1`] = `
                                           "dirty": false,
                                           "dirtySinceLastSubmit": false,
                                           "error": undefined,
-                                          "initial": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "initial": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                           "invalid": false,
                                           "length": undefined,
                                           "modified": false,
@@ -10988,7 +10988,7 @@ exports[`<App /> snapshot 1`] = `
                                         required={false}
                                         rows=""
                                         type="text"
-                                        value="\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif"
+                                        value="'Roboto', 'Helvetica', 'Arial', 'sans-serif'"
                                       />
                                     </div>
                                   </div>
@@ -11376,7 +11376,7 @@ exports[`<App /> snapshot 1`] = `
                                           "onChange": [Function],
                                           "onFocus": [Function],
                                           "type": "text",
-                                          "value": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "value": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                         },
                                         "meta": Object {
                                           "active": false,
@@ -11384,7 +11384,7 @@ exports[`<App /> snapshot 1`] = `
                                           "dirty": false,
                                           "dirtySinceLastSubmit": false,
                                           "error": undefined,
-                                          "initial": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "initial": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                           "invalid": false,
                                           "length": undefined,
                                           "modified": false,
@@ -11427,7 +11427,7 @@ exports[`<App /> snapshot 1`] = `
                                         required={false}
                                         rows=""
                                         type="text"
-                                        value="\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif"
+                                        value="'Roboto', 'Helvetica', 'Arial', 'sans-serif'"
                                       />
                                     </div>
                                   </div>
@@ -11815,7 +11815,7 @@ exports[`<App /> snapshot 1`] = `
                                           "onChange": [Function],
                                           "onFocus": [Function],
                                           "type": "text",
-                                          "value": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "value": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                         },
                                         "meta": Object {
                                           "active": false,
@@ -11823,7 +11823,7 @@ exports[`<App /> snapshot 1`] = `
                                           "dirty": false,
                                           "dirtySinceLastSubmit": false,
                                           "error": undefined,
-                                          "initial": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "initial": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                           "invalid": false,
                                           "length": undefined,
                                           "modified": false,
@@ -11866,7 +11866,7 @@ exports[`<App /> snapshot 1`] = `
                                         required={false}
                                         rows=""
                                         type="text"
-                                        value="\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif"
+                                        value="'Roboto', 'Helvetica', 'Arial', 'sans-serif'"
                                       />
                                     </div>
                                   </div>
@@ -12254,7 +12254,7 @@ exports[`<App /> snapshot 1`] = `
                                           "onChange": [Function],
                                           "onFocus": [Function],
                                           "type": "text",
-                                          "value": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "value": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                         },
                                         "meta": Object {
                                           "active": false,
@@ -12262,7 +12262,7 @@ exports[`<App /> snapshot 1`] = `
                                           "dirty": false,
                                           "dirtySinceLastSubmit": false,
                                           "error": undefined,
-                                          "initial": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "initial": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                           "invalid": false,
                                           "length": undefined,
                                           "modified": false,
@@ -12305,7 +12305,7 @@ exports[`<App /> snapshot 1`] = `
                                         required={false}
                                         rows=""
                                         type="text"
-                                        value="\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif"
+                                        value="'Roboto', 'Helvetica', 'Arial', 'sans-serif'"
                                       />
                                     </div>
                                   </div>
@@ -12693,7 +12693,7 @@ exports[`<App /> snapshot 1`] = `
                                           "onChange": [Function],
                                           "onFocus": [Function],
                                           "type": "text",
-                                          "value": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "value": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                         },
                                         "meta": Object {
                                           "active": false,
@@ -12701,7 +12701,7 @@ exports[`<App /> snapshot 1`] = `
                                           "dirty": false,
                                           "dirtySinceLastSubmit": false,
                                           "error": undefined,
-                                          "initial": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "initial": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                           "invalid": false,
                                           "length": undefined,
                                           "modified": false,
@@ -12744,7 +12744,7 @@ exports[`<App /> snapshot 1`] = `
                                         required={false}
                                         rows=""
                                         type="text"
-                                        value="\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif"
+                                        value="'Roboto', 'Helvetica', 'Arial', 'sans-serif'"
                                       />
                                     </div>
                                   </div>
@@ -13132,7 +13132,7 @@ exports[`<App /> snapshot 1`] = `
                                           "onChange": [Function],
                                           "onFocus": [Function],
                                           "type": "text",
-                                          "value": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "value": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                         },
                                         "meta": Object {
                                           "active": false,
@@ -13140,7 +13140,7 @@ exports[`<App /> snapshot 1`] = `
                                           "dirty": false,
                                           "dirtySinceLastSubmit": false,
                                           "error": undefined,
-                                          "initial": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "initial": "'Roboto', 'Helvetica', 'Arial', 'sans-serif'",
                                           "invalid": false,
                                           "length": undefined,
                                           "modified": false,
@@ -13183,7 +13183,7 @@ exports[`<App /> snapshot 1`] = `
                                         required={false}
                                         rows=""
                                         type="text"
-                                        value="\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif"
+                                        value="'Roboto', 'Helvetica', 'Arial', 'sans-serif'"
                                       />
                                     </div>
                                   </div>

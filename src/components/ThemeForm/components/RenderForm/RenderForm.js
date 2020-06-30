@@ -13,7 +13,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Grid from '@material-ui/core/Grid';
 import PropTypes from 'prop-types';
 
-const shadowValidator = (shadow) => {
+export const shadowValidator = (shadow) => {
   const shadowRE = new RegExp(/(-?\d*px -?\d*px -?\d*px -?\d*px rgba\(\d*,\d*,\d*,(\d*\.\d*)\),){2}-?\d*px -?\d*px -?\d*px -?\d*px rgba\(\d*,\d*,\d*,(\d*\.\d*)\)/);
   const result = shadowRE.exec(shadow);
   if (shadow === 'none') return undefined;
@@ -23,7 +23,7 @@ const shadowValidator = (shadow) => {
   return undefined;
 };
 
-const fontValidator = (value, name) => {
+export const fontValidator = (value, name) => {
   const fontRE = new RegExp(/('(\w{1,20}-\w{1,20}|\w{1,20})',\s){3}'(\w{1,20}-\w{1,20}|\w{1,20})'/);
   if (name.includes('fontFamily')) {
     const result = fontRE.exec(value);
