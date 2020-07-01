@@ -78,13 +78,9 @@ const renderShadows = (item, name) => (
 const loopValues = (values, key = 'theme') => Object.entries(values).map((item) => {
   const name = key ? `${key}.${item[0]}` : item[0];
 
-  if (item[0] === 'shadows' && Array.isArray(item[1])) {
-    return renderShadows(item[1], name);
-  }
+  if (item[0] === 'shadows' && Array.isArray(item[1])) return renderShadows(item[1], name);
 
-  if (item[1] !== Object(item[1])) {
-    return renderInput(item[1], name);
-  }
+  if (item[1] !== Object(item[1])) return renderInput(item[1], name);
 
   if (item[1] !== Array.isArray(item[1]) && item[0]) {
     return (
@@ -93,12 +89,7 @@ const loopValues = (values, key = 'theme') => Object.entries(values).map((item) 
           <Typography>{name}</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Grid
-            container
-            direction="column"
-            justify="center"
-            alignItems="center"
-          >
+          <Grid container direction="column" justify="center" alignItems="center">
             {loopValues(item[1], name)}
           </Grid>
         </ExpansionPanelDetails>
