@@ -51,25 +51,35 @@ const renderShadows = (item, name) => (
 
 const getName = (key, item) => (key ? `${key}.${item[0]}` : item[0]);
 
+const determineItem = (item) => {
+  if (item[0] === 'shadows' && Array.isArray(item[1])) return 'shadow';
+  if (item[1] !== Object(item[1])) return 'input';
+  if (item[1] !== Array.isArray(item[1]) && item[0]) return 'notArray';
+};
+
 const loopValues = (values, key = 'theme') => Object.entries(values).map((item) => {
   const name = getName(key, item);
-  if (item[0] === 'shadows' && Array.isArray(item[1])) return renderShadows(item[1], name);
-
-  if (item[1] !== Object(item[1])) return renderInput(item[1], name);
-
-  if (item[1] !== Array.isArray(item[1]) && item[0]) {
-    return (
-      <ExpansionPanel style={{ width: '100%' }} key={name}>
-        <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography>{name}</Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Grid container direction="column" justify="center" alignItems="center">
-            {loopValues(item[1], name)}
-          </Grid>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
-    );
+  const inputType = determineItem(item);
+  switch (inputType) {
+    case 'shadow':
+      return renderShadows(item[1], name);
+    case 'input':
+      return renderInput(item[1], name);
+    case 'notArray':
+      return (
+        <ExpansionPanel style={{ width: '100%' }} key={name}>
+          <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+            <Typography>{name}</Typography>
+          </ExpansionPanelSummary>
+          <ExpansionPanelDetails>
+            <Grid container direction="column" justify="center" alignItems="center">
+              {loopValues(item[1], name)}
+            </Grid>
+          </ExpansionPanelDetails>
+        </ExpansionPanel>
+      );
+    default:
+      return null;
   }
 });
 
