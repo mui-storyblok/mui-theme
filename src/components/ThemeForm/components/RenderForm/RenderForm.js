@@ -79,9 +79,7 @@ const loopValues = (values, key = 'theme') => Object.entries(values).map((item) 
   const name = key ? `${key}.${item[0]}` : item[0];
 
   if (item[0] === 'shadows' && Array.isArray(item[1])) {
-    return (
-      renderShadows(item[1], name)
-    );
+    return renderShadows(item[1], name);
   }
 
   if (item[1] !== Object(item[1])) {
@@ -91,9 +89,7 @@ const loopValues = (values, key = 'theme') => Object.entries(values).map((item) 
   if (item[1] !== Array.isArray(item[1]) && item[0]) {
     return (
       <ExpansionPanel style={{ width: '100%' }} key={name}>
-        <ExpansionPanelSummary
-          expandIcon={<ExpandMoreIcon />}
-        >
+        <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
           <Typography>{name}</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
