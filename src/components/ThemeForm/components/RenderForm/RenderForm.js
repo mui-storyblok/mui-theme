@@ -62,26 +62,25 @@ const renderInput = (value, name) => {
   return (<MuiInput fullWidth name={name} value={value} validate={() => validator(value, name)} />);
 };
 
+const renderShadows = (item, name) => (
+  <ExpansionPanel style={{ width: '100%' }} key={name}>
+    <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+      <Typography>{name}</Typography>
+    </ExpansionPanelSummary>
+    <ExpansionPanelDetails>
+      <Grid container direction="column" justify="center" alignItems="center">
+        {renderInput(item, 'shadows')}
+      </Grid>
+    </ExpansionPanelDetails>
+  </ExpansionPanel>
+);
+
 const loopValues = (values, key = 'theme') => Object.entries(values).map((item) => {
   const name = key ? `${key}.${item[0]}` : item[0];
 
   if (item[0] === 'shadows' && Array.isArray(item[1])) {
     return (
-      <ExpansionPanel style={{ width: '100%' }} key={name}>
-        <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography>{name}</Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
-          <Grid
-            container
-            direction="column"
-            justify="center"
-            alignItems="center"
-          >
-            {renderInput(item[1], 'shadows')}
-          </Grid>
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
+      renderShadows(item[1], name)
     );
   }
 
