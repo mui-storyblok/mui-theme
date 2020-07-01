@@ -6,24 +6,19 @@ export const shadowValidator = (shadow) => {
   return undefined;
 };
 
-export const fontRE = (font) => {
-  const e = new RegExp(/('(\w{1,20}-\w{1,20}|\w{1,20})',\s){3}'(\w{1,20}-\w{1,20}|\w{1,20})'/);
-  const result = e.exec(font);
-  if (result === null) return 'fontFamily format invalid.';
-  return undefined;
-};
+const fontRE = new RegExp(/('(\w{1,20}-\w{1,20}|\w{1,20})',\s){3}'(\w{1,20}-\w{1,20}|\w{1,20})'/);
+const easingRE = new RegExp(/cubic-bezier\(((\d*\.\d*|\d*),\s){3}(\d*\.\d*|\d)\)/);
 
-export const easingRE = (easing) => {
-  const e = new RegExp(/cubic-bezier\(((\d*\.\d*|\d*),\s){3}(\d*\.\d*|\d)\)/);
-  const result = e.exec(easing);
-  if (result === null) return 'easing format invalid.';
+const executeValidator = (value, regEx, errorMsg) => {
+  const isValid = regEx.exec(value);
+  if (isValid === null) return errorMsg;
   return undefined;
 };
 
 export const validator = (value, name) => {
   let result;
   if (value === undefined) return 'Value is Required.';
-  if (name.includes('fontFamily')) result = fontRE(value);
-  if (name.includes('easing')) result = easingRE(value);
+  if (name.includes('fontFamily')) result = executeValidator(value, fontRE, 'fontFamily format invalid.');
+  if (name.includes('easing')) result = executeValidator(value, easingRE, 'easing format invalid.');
   return result;
 };
