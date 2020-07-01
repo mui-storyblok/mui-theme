@@ -31,11 +31,7 @@ const renderInput = (value, name) => {
     }
   }
 
-  if (!isNaN(value)) {
-    return (
-      <MuiInput fullWidth type="number" name={name} />
-    );
-  }
+  if (!isNaN(value)) return <MuiInput fullWidth type="number" name={name} />;
 
   return (<MuiInput fullWidth name={name} value={value} validate={() => validator(value, name)} />);
 };
@@ -53,9 +49,10 @@ const renderShadows = (item, name) => (
   </ExpansionPanel>
 );
 
-const loopValues = (values, key = 'theme') => Object.entries(values).map((item) => {
-  const name = key ? `${key}.${item[0]}` : item[0];
+const getName = (key, item) => (key ? `${key}.${item[0]}` : item[0]);
 
+const loopValues = (values, key = 'theme') => Object.entries(values).map((item) => {
+  const name = getName(key, item);
   if (item[0] === 'shadows' && Array.isArray(item[1])) return renderShadows(item[1], name);
 
   if (item[1] !== Object(item[1])) return renderInput(item[1], name);
