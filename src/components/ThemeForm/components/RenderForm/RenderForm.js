@@ -12,29 +12,7 @@ import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Grid from '@material-ui/core/Grid';
 import PropTypes from 'prop-types';
-
-export const shadowValidator = (shadow) => {
-  const shadowRE = new RegExp(/(-?\d*px -?\d*px -?\d*px -?\d*px rgba\(\d*,\d*,\d*,(\d*\.\d*)\),){2}-?\d*px -?\d*px -?\d*px -?\d*px rgba\(\d*,\d*,\d*,(\d*\.\d*)\)/);
-  const result = shadowRE.exec(shadow);
-  if (shadow === 'none') return undefined;
-  if (result === null) {
-    return 'Shadow Format Invalid.';
-  }
-  return undefined;
-};
-
-export const validator = (value, name) => {
-  const fontRE = new RegExp(/('(\w{1,20}-\w{1,20}|\w{1,20})',\s){3}'(\w{1,20}-\w{1,20}|\w{1,20})'/);
-  const easingRE = new RegExp(/cubic-bezier\(((\d*\.\d*|\d*),\s){3}(\d*\.\d*|\d)\)/);
-  if (name.includes('fontFamily')) {
-    const result = fontRE.exec(value);
-    if (result === null) return 'fontFamily format invalid.';
-  } else if (name.includes('easing')) {
-    const result = easingRE.exec(value);
-    if (result === null) return 'easing format invalid.';
-  } else if (value === undefined) return 'Value is Required.';
-  return undefined;
-};
+import { shadowValidator, validator } from './Regex';
 
 const renderInput = (value, name) => {
   if (name.includes('shadows')) {

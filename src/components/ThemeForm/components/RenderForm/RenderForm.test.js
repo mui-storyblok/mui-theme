@@ -1,7 +1,8 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
-import RenderForm, { shadowValidator, validator } from './RenderForm';
+import RenderForm from './RenderForm';
+import { shadowValidator, validator } from './Regex';
 
 function setup() {
   const props = {
