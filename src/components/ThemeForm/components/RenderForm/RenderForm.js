@@ -11,10 +11,10 @@ import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Grid from '@material-ui/core/Grid';
-import PropTypes from 'prop-types';
 import { shadowValidator, validator } from './Regex';
+import theme from '../../../../defaultMuiTheme';
 
-const renderInput = (value, name) => {
+const shadowsInput = (name, defaultInput) => {
   if (name.includes('shadows')) {
     return (
       <div style={{ width: '100%' }}>
@@ -25,15 +25,36 @@ const renderInput = (value, name) => {
     );
   }
 
+  return defaultInput;
+};
+
+const colorInput = (name, value, defaultInput) => {
   if (typeof value === 'string') {
     if (value.includes('#') || value.includes('rgb')) {
       return (<MuiInput fullWidth type="color" name={name} value={value} />);
     }
   }
+  return defaultInput;
+};
 
+const numberInput = (name, value, defaultInput) => {
   if (!isNaN(value)) return <MuiInput fullWidth type="number" name={name} />;
+  return defaultInput;
+}
 
-  return (<MuiInput fullWidth name={name} value={value} validate={() => validator(value, name)} />);
+const renderInput = (value, name) => {
+  let defaultInput = (
+    <MuiInput
+      fullWidth
+      name={name}
+      value={value}
+      validate={() => validator(value, name)}
+    />
+  );
+  defaultInput = shadowsInput(name, defaultInput);
+  defaultInput = colorInput(name, value, defaultInput);
+  defaultInput = numberInput(name, value, defaultInput);
+  return defaultInput;
 };
 
 const renderShadows = (item, name) => (
@@ -83,17 +104,11 @@ const loopValues = (values, key = 'theme') => Object.entries(values).map((item) 
   }
 });
 
-const RenderForm = ({ form }) => (
+const RenderForm = () => (
   <>
-    {loopValues(form.getState().values.theme)}
+    {loopValues(theme)}
     <MuiSubmit buttonText="Update Theme" />
   </>
 );
 
 export default RenderForm;
-
-RenderForm.propTypes = {
-  form: PropTypes.shape({
-    getState: PropTypes.func.isRequired,
-  }).isRequired,
-};
