@@ -1,21 +1,22 @@
 import React from 'react';
 import { mount } from 'enzyme';
+import { Form } from 'rff-wrapper';
 import renderer from 'react-test-renderer';
+import arrayMutators from 'final-form-arrays';
 import RenderForm from './RenderForm';
 import { shadowValidator, validator } from './Regex';
 
 function setup() {
-  const props = {
-    form: {
-      getState: jest.fn(() => ({
-        values: {
-          theme: {},
-          storyBlokAccessToken: 'wasd',
-        },
-      })),
-    },
-  };
-  const comp = mount(<RenderForm {...props} />);
+  const props = {};
+  const comp = mount(
+    <Form
+      onSubmit={() => true}
+      mutators={{ ...arrayMutators }}
+      initialValues={{ theme: {} }}
+    >
+      <RenderForm />
+    </Form>,
+  );
   return { comp, props };
 }
 
@@ -26,8 +27,15 @@ describe('<RenderForm />', () => {
   });
 
   test('snapshot', () => {
-    const { props } = setup();
-    const tree = renderer.create((<RenderForm {...props} />));
+    const tree = renderer.create(
+      <Form
+        onSubmit={() => true}
+        mutators={{ ...arrayMutators }}
+        initialValues={{ theme: {} }}
+      >
+        <RenderForm />
+      </Form>,
+    );
     expect(tree).toMatchSnapshot();
   });
 

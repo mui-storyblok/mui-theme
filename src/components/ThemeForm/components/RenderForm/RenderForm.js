@@ -40,7 +40,7 @@ const colorInput = (name, value, defaultInput) => {
 const numberInput = (name, value, defaultInput) => {
   if (!isNaN(value)) return <MuiInput fullWidth type="number" name={name} />;
   return defaultInput;
-}
+};
 
 const renderInput = (value, name) => {
   let defaultInput = (
@@ -84,8 +84,6 @@ const loopValues = (values, key = 'theme') => Object.entries(values).map((item) 
   switch (inputType) {
     case 'shadow':
       return renderShadows(item[1], name);
-    case 'input':
-      return renderInput(item[1], name);
     case 'notArray':
       return (
         <ExpansionPanel style={{ width: '100%' }} key={name}>
@@ -100,7 +98,7 @@ const loopValues = (values, key = 'theme') => Object.entries(values).map((item) 
         </ExpansionPanel>
       );
     default:
-      return null;
+      return renderInput(item[1], name);
   }
 });
 
