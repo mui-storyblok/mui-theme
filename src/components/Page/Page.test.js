@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
-import Page from './Page';
+import { Page } from './Page';
 
 function setup() {
   const props = {
