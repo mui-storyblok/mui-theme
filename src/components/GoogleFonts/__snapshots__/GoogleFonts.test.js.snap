@@ -1,99 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<GoogleFonts /> snapshot 1`] = `
-<form
-  onSubmit={[Function]}
+<button
+  aria-describedby={null}
+  className="MuiButtonBase-root MuiIconButton-root"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseOver={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  title="Add Google Font"
+  type="button"
 >
-  <div
-    className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-    data-testid="muiinput"
-    field={
-      Object {
-        "input": Object {
-          "checked": undefined,
-          "name": "fontHref",
-          "onBlur": [Function],
-          "onChange": [Function],
-          "onFocus": [Function],
-          "type": "text",
-          "value": "",
-        },
-        "meta": Object {
-          "active": false,
-          "data": Object {},
-          "dirty": false,
-          "dirtySinceLastSubmit": false,
-          "error": undefined,
-          "initial": undefined,
-          "invalid": false,
-          "length": undefined,
-          "modified": false,
-          "modifiedSinceLastSubmit": false,
-          "pristine": true,
-          "submitError": undefined,
-          "submitFailed": false,
-          "submitSucceeded": false,
-          "submitting": false,
-          "touched": false,
-          "valid": true,
-          "validating": false,
-          "visited": false,
-        },
-      }
-    }
+  <span
+    className="MuiIconButton-label"
   >
-    <label
-      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-      data-shrink={false}
+    <svg
+      aria-hidden={true}
+      className="MuiSvgIcon-root"
+      focusable="false"
+      viewBox="0 0 24 24"
     >
-      fontHref
-    </label>
-    <div
-      className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-      onClick={[Function]}
-    >
-      <input
-        aria-invalid={false}
-        autoComplete=""
-        autoFocus={false}
-        className="MuiInputBase-input MuiInput-input"
-        disabled={false}
-        name="fontHref"
-        onAnimationStart={[Function]}
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        placeholder="Google Font Link"
-        required={false}
-        rows=""
-        type="text"
-        value=""
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
       />
-    </div>
-  </div>
-  <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-    data-testid="Button"
-    disabled={false}
-    onBlur={[Function]}
-    onDragLeave={[Function]}
-    onFocus={[Function]}
-    onKeyDown={[Function]}
-    onKeyUp={[Function]}
-    onMouseDown={[Function]}
-    onMouseLeave={[Function]}
-    onMouseUp={[Function]}
-    onTouchEnd={[Function]}
-    onTouchMove={[Function]}
-    onTouchStart={[Function]}
-    tabIndex={0}
-    type="submit"
-  >
-    <span
-      className="MuiButton-label"
-    >
-      Add Font
-    </span>
-  </button>
-</form>
+      <path
+        d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 14h-3v3h-2v-3H8v-2h3v-3h2v3h3v2zm-3-7V3.5L18.5 9H13z"
+      />
+    </svg>
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
 `;
