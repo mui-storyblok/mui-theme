@@ -3,15 +3,17 @@ import { Form, MuiInput, MuiSubmit } from 'rff-wrapper';
 
 export const GoogleFonts = () => {
   const onSubmit = async (values) => {
-    console.log(values.fontLink);
-    document.head.innerHTML += values.fontLink;
+    const fontLink = document.createElement('link');
+    fontLink.href = values.fontHref;
+    fontLink.rel = 'stylesheet';
+    document.head.appendChild(fontLink);
   };
   return (
     <Form
       onSubmit={onSubmit}
     >
       <MuiInput
-        name="fontLink"
+        name="fontHref"
         placeholder="Google Font Link"
         fullWidth
       />
