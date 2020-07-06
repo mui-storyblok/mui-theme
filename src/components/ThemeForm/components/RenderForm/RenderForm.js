@@ -13,7 +13,6 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Grid from '@material-ui/core/Grid';
 import { shadowValidator, validator } from './Regex';
 import theme from '../../../../defaultMuiTheme';
-import GoogleFonts from '../../../GoogleFonts/GoogleFonts';
 
 const shadowsInput = (name, defaultInput) => {
   if (name.includes('shadows')) {
@@ -105,7 +104,6 @@ const loopValues = (values, key = 'theme') => Object.entries(values).map((item) 
 
 const RenderForm = () => (
   <>
-    <GoogleFonts />
     {loopValues(theme)}
     <MuiSubmit buttonText="Update Theme" />
   </>
