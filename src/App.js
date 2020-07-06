@@ -39,9 +39,7 @@ const App = () => {
             <ViewThemeDialog
               theme={state.theme}
             />
-            <GoogleFonts
-              theme={state.theme}
-            />
+            <GoogleFonts />
           </Grid>
           <Grid xs={12}>
             <ThemeForm

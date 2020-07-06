@@ -28,8 +28,9 @@ describe('<GoogleFonts />', () => {
     global.document = dom.window.document;
     global.window = dom.window;
     const spy = jest.spyOn(document, 'getElementById');
+    const iconBtn = comp.find('ForwardRef(IconButton)').first();
+    iconBtn.simulate('click');
     const input = comp.find('input').first();
-    // console.log(comp.debug());
     input.simulate('change', { target: { value: 'poop' } });
     const submitBtn = comp.find('MuiSubmit').first();
     act(async () => {

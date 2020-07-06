@@ -47,7 +47,9 @@ export const GoogleFonts = () => {
               placeholder="Google Font Link"
               fullWidth
             />
-            <MuiSubmit buttonText="Add Font" />
+            <DialogActions>
+              <MuiSubmit buttonText="Add Font" />
+            </DialogActions>
           </Form>
         </DialogContent>
       </Dialog>
