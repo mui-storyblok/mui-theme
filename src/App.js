@@ -8,7 +8,6 @@ import theme from './defaultMuiTheme';
 
 const App = () => {
   const [state, setState] = useState({
-    open: false,
     theme,
     accessToken: process.env.REACT_APP_STORYBLOK_ACCESS_TOKEN,
   });
