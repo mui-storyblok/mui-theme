@@ -14,12 +14,10 @@ const App = () => {
   });
 
   const onSubmit = async (values) => {
-    console.log('values', values)
     setState({
       theme: values.theme,
       accessToken: values.storyBlokAccessToken,
     });
-    console.log('state', state)
   };
 
   return (
@@ -43,11 +41,17 @@ const App = () => {
             />
           </Grid>
           <Grid xs={12}>
-            <ThemeForm onSubmit={onSubmit} theme={theme} />
+            <ThemeForm
+              onSubmit={onSubmit}
+              theme={state.theme}
+            />
           </Grid>
         </Grid>
         <Grid item xs={8} style={{ overflow: 'scroll', maxHeight: '1000px' }}>
-          <Page accessToken={state.accessToken} theme={state.theme} />
+          <Page
+            accessToken={state.accessToken}
+            theme={state.theme}
+          />
         </Grid>
       </Grid>
     </BrowserRouter>

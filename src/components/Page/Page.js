@@ -2,17 +2,14 @@ import React from 'react';
 import { MuiStoryblok } from 'mui-storyblok';
 import PropTypes from 'prop-types';
 
-export const Page = ({ accessToken, theme }) => {
-  console.log('Page theme', theme)
-  return (
-    <MuiStoryblok
-      useObjectTheme={true}
-      theme={theme}
-      accessToken={accessToken}
-      version="draft"
-    />
-  );
-}
+export const Page = ({ accessToken, theme }) => (
+  <MuiStoryblok
+    useObjectTheme={true}
+    theme={theme}
+    accessToken={accessToken}
+    version="draft"
+  />
+);
 
 export default Page;
 

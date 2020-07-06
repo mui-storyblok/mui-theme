@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import copy from 'copy-to-clipboard';
 import downloadJson from 'Utils/downloadJson';
 
-const ViewThemeDialog = ({ theme, open, handleClose }) => {
+const ViewThemeDialog = ({ theme }) => {
   const [state, setState] = useState({ open: false });
 
   const toggleDialog = () => {
