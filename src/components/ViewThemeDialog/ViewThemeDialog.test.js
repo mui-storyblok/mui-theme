@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
-import SubmitDialog from './SubmitDialog';
+import ViewThemeDialog from './ViewThemeDialog';
 
 jest.mock('../../../node_modules/copy-to-clipboard');
 
@@ -15,19 +15,19 @@ function setup(open = true) {
     open,
     handleClose: jest.fn(),
   };
-  const comp = mount(<SubmitDialog {...props} />);
+  const comp = mount(<ViewThemeDialog {...props} />);
   return { comp, props };
 }
 
-describe('<SubmitDialog />', () => {
-  it('renders SubmitDialog', () => {
+describe('<ViewThemeDialog />', () => {
+  it('renders ViewThemeDialog', () => {
     const { comp } = setup();
     expect(comp).toBeDefined();
   });
 
-  it('callClose on clicking closeSubmitDialog', () => {
+  it('callClose on clicking closeViewThemeDialog', () => {
     const { comp, props } = setup();
-    callClose(comp, props, '[data-testid="closeSubmitDialog"]');
+    callClose(comp, props, '[data-testid="closeViewThemeDialog"]');
   });
 
 
@@ -38,7 +38,7 @@ describe('<SubmitDialog />', () => {
 
   test('snapshot', () => {
     const { props } = setup(false);
-    const tree = renderer.create((<SubmitDialog {...props} />));
+    const tree = renderer.create((<ViewThemeDialog {...props} />));
     expect(tree).toMatchSnapshot();
   });
 });
