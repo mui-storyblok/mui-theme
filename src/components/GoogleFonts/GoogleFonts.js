@@ -10,7 +10,7 @@ import {
 } from '@material-ui/core';
 import { NoteAdd } from '@material-ui/icons';
 
-export const GoogleFonts = ({ theme }) => {
+export const GoogleFonts = () => {
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
@@ -28,7 +28,6 @@ export const GoogleFonts = ({ theme }) => {
     document.getElementById('htmlHead').appendChild(fontLink);
     handleClose();
   };
-
 
   return (
     <>
