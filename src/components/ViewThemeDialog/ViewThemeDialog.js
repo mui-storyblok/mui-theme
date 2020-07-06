@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
-import Button from '@material-ui/core/Button';
-import Dialog from '@material-ui/core/Dialog';
-import DialogActions from '@material-ui/core/DialogActions';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogTitle from '@material-ui/core/DialogTitle';
+import {
+  Button,
+  IconButton,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogTitle,
+  Tooltip,
+} from '@material-ui/core';
+import Assignment from '@material-ui/icons/Assignment';
 import PropTypes from 'prop-types';
 import copy from 'copy-to-clipboard';
 import downloadJson from 'Utils/downloadJson';
@@ -28,7 +33,7 @@ const ViewThemeDialog = ({ theme }) => {
   return (
     <>
       <Dialog aria-labelledby="simple-dialog-title" open={state.open}>
-        <DialogTitle id="simple-dialog-title">Set backup account</DialogTitle>
+        <DialogTitle id="simple-dialog-title">Theme</DialogTitle>
         <DialogContent>
           {JSON.stringify(theme)}
         </DialogContent>
@@ -44,9 +49,11 @@ const ViewThemeDialog = ({ theme }) => {
           </Button>
         </DialogActions>
       </Dialog>
-      <Button data-testid="viewTheme" onClick={toggleDialog}>
-        Vew Theme Object
-      </Button>
+      <Tooltip title="View Theme" placement="top-end">
+        <IconButton data-testid="viewTheme" onClick={toggleDialog}>
+          <Assignment />
+        </IconButton>
+      </Tooltip>
     </>
   );
 };
