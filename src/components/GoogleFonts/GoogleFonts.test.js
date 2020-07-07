@@ -2,16 +2,11 @@ import React from 'react';
 import { mount } from 'enzyme';
 import { JSDOM } from 'jsdom';
 import { act } from 'react-dom/test-utils';
-import { Form } from 'rff-wrapper';
 import renderer from 'react-test-renderer';
 import GoogleFonts from './GoogleFonts';
 
 function setup() {
-  const comp = mount(
-    <Form onSubmit={() => true}>
-      <GoogleFonts />
-    </Form>,
-  );
+  const comp = mount(<GoogleFonts />);
   return { comp };
 }
 
@@ -21,23 +16,35 @@ describe('<GoogleFonts />', () => {
     expect(comp).toBeDefined();
   });
 
-  it('should handleSubmit and add Link tag to head', () => {
+  it('should handleSubmit and add Link tag to head', async () => {
     const dom = new JSDOM();
     const { comp } = setup();
     const { createElement } = document;
     global.document = dom.window.document;
     global.window = dom.window;
-    const spy = jest.spyOn(document, 'getElementById');
+    const { getElementById } = document;
+
+    document.getElementById = jest.fn(() => ({
+      appendChild: jest.fn(),
+    }));
+
     const iconBtn = comp.find('ForwardRef(IconButton)').first();
     iconBtn.simulate('click');
+
     const dialogOpen = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('open');
     expect(dialogOpen).toEqual(true);
+
     const input = comp.find('input').first();
     input.simulate('change', { target: { value: 'poop' } });
+
     const submitBtn = comp.find('MuiSubmit').first();
-    submitBtn.simulate('submit');
-    expect(spy).toBeCalledTimes(1);
+    await submitBtn.simulate('submit');
+
+    expect(document.getElementById).toBeCalledTimes(1);
+    expect(comp.find('WithStyles(ForwardRef(Dialog))').first().prop('open')).toEqual(false);
+
     document.createElement = createElement;
+    document.getElementById = getElementById;
   });
 
   it('should handle close', () => {
