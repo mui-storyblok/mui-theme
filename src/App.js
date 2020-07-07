@@ -4,6 +4,7 @@ import { Grid } from '@material-ui/core';
 import ThemeForm from './components/ThemeForm/ThemeForm';
 import Page from './components/Page/Page';
 import ViewThemeDialog from './components/ViewThemeDialog/ViewThemeDialog';
+import GoogleFonts from './components/GoogleFonts/GoogleFonts';
 import theme from './defaultMuiTheme';
 
 const App = () => {
@@ -38,6 +39,7 @@ const App = () => {
             <ViewThemeDialog
               theme={state.theme}
             />
+            <GoogleFonts />
           </Grid>
           <Grid xs={12}>
             <ThemeForm

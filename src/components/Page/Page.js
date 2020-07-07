@@ -18,5 +18,4 @@ Page.propTypes = {
   theme: PropTypes.shape().isRequired,
 };
 
-Page.defaultProps = {
-};
+Page.defaultProps = {};
