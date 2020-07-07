@@ -35,9 +35,7 @@ describe('<GoogleFonts />', () => {
     const input = comp.find('input').first();
     input.simulate('change', { target: { value: 'poop' } });
     const submitBtn = comp.find('MuiSubmit').first();
-    act(async () => {
-      await submitBtn.simulate('submit');
-    });
+    submitBtn.simulate('submit');
     expect(spy).toBeCalledTimes(1);
     document.createElement = createElement;
   });
@@ -54,9 +52,15 @@ describe('<GoogleFonts />', () => {
     act(() => {
       dialogClose();
     });
-    const dialogClosed = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('open');
-    expect(dialogClosed).toEqual(true);
+    setTimeout(() => {
+      const dialogClosed = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('open');
+      expect(dialogClosed).toEqual(false);
+    }, 800);
   });
+
+  // it('should handle close when submit button is clicked', () => {
+
+  // });
 
   test('snapshot', () => {
     const tree = renderer.create(<GoogleFonts />);
