@@ -58,10 +58,6 @@ describe('<GoogleFonts />', () => {
     }, 800);
   });
 
-  // it('should handle close when submit button is clicked', () => {
-
-  // });
-
   test('snapshot', () => {
     const tree = renderer.create(<GoogleFonts />);
     expect(tree).toMatchSnapshot();
