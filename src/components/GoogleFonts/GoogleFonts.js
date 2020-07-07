@@ -18,6 +18,7 @@ export const GoogleFonts = () => {
   };
 
   const handleClose = () => {
+    console.log('handle close entered');
     setOpen(false);
   };
 

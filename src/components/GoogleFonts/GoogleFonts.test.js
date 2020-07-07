@@ -40,6 +40,20 @@ describe('<GoogleFonts />', () => {
     document.createElement = createElement;
   });
 
+  it('should handle close', () => {
+    const { comp } = setup();
+    const dialog = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('open');
+    expect(dialog).toEqual(false);
+    const iconBtn = comp.find('ForwardRef(IconButton)').first();
+    iconBtn.simulate('click');
+    const dialogOpen = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('open');
+    expect(dialogOpen).toEqual(true);
+    const dialogClose = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('onClose');
+    dialogClose();
+    const dialogClosed = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('open');
+    expect(dialogClosed).toEqual(true);
+  });
+
   test('snapshot', () => {
     const tree = renderer.create(<GoogleFonts />);
     expect(tree).toMatchSnapshot();
