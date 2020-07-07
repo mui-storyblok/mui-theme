@@ -13,7 +13,10 @@ function setup() {
         },
       })),
     },
+    theme: {},
+    accessToken: '',
   };
+
   const comp = mount(<Page {...props} />);
   return { comp, props };
 }

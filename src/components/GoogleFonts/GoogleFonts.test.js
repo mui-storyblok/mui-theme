@@ -30,6 +30,8 @@ describe('<GoogleFonts />', () => {
     const spy = jest.spyOn(document, 'getElementById');
     const iconBtn = comp.find('ForwardRef(IconButton)').first();
     iconBtn.simulate('click');
+    const dialogOpen = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('open');
+    expect(dialogOpen).toEqual(true);
     const input = comp.find('input').first();
     input.simulate('change', { target: { value: 'poop' } });
     const submitBtn = comp.find('MuiSubmit').first();
@@ -49,7 +51,9 @@ describe('<GoogleFonts />', () => {
     const dialogOpen = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('open');
     expect(dialogOpen).toEqual(true);
     const dialogClose = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('onClose');
-    dialogClose();
+    act(() => {
+      dialogClose();
+    });
     const dialogClosed = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('open');
     expect(dialogClosed).toEqual(true);
   });
