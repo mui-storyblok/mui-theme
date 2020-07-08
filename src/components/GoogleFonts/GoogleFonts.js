@@ -44,6 +44,7 @@ export const GoogleFonts = () => {
             To add Google Font go to: &nbsp;
             <a href="https://fonts.google.com/">Google Fonts</a>
             , select font, and paste HREF url here.
+            Once added, you can use any of the font families.
           </DialogContentText>
           <Form onSubmit={onSubmit}>
             <MuiInput
