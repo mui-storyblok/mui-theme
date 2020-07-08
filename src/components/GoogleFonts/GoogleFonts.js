@@ -5,6 +5,7 @@ import {
   Dialog,
   DialogTitle,
   DialogContent,
+  DialogContentText,
   DialogActions,
   IconButton,
 } from '@material-ui/core';
@@ -39,9 +40,12 @@ export const GoogleFonts = () => {
       <Dialog open={open} onClose={handleClose} style={{ padding: '100px' }}>
         <DialogTitle>Google Font HREF</DialogTitle>
         <DialogContent>
-          <Form
-            onSubmit={onSubmit}
-          >
+          <DialogContentText>
+            To add Google Font go to: &nbsp;
+            <a href="https://fonts.google.com/">Google Fonts</a>
+            , select font, and paste HREF url here.
+          </DialogContentText>
+          <Form onSubmit={onSubmit}>
             <MuiInput
               name="fontHref"
               placeholder="Google Font Link"
