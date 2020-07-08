@@ -12,15 +12,16 @@ const App = () => {
   const [state, setState] = useState({
     theme,
     accessToken: process.env.REACT_APP_STORYBLOK_ACCESS_TOKEN,
+    pageRedirect: window.location.pathname,
   });
 
   const onSubmit = async (values) => {
     setState({
       theme: values.theme,
       accessToken: values.storyBlokAccessToken,
+      pageRedirect: values.pageRedirect,
     });
   };
-
   return (
     <BrowserRouter>
       <Grid
@@ -37,15 +38,16 @@ const App = () => {
           style={{ overflow: 'scroll', maxHeight: '1000px', marginTop: '100px' }}
         >
           <Grid xs={12}>
-            <ViewThemeDialog
-              theme={state.theme}
-            />
+            <AccessToken setAccessToken={setState} theme={state.theme} />
+            <ViewThemeDialog theme={state.theme} />
             <GoogleFonts />
           </Grid>
           <Grid xs={12}>
             <ThemeForm
               onSubmit={onSubmit}
               theme={state.theme}
+              accessToken={state.accessToken}
+              pageRedirect={state.pageRedirect}
             />
           </Grid>
         </Grid>
@@ -53,6 +55,7 @@ const App = () => {
           <Page
             accessToken={state.accessToken}
             theme={state.theme}
+            pageRedirect={state.pageRedirect}
           />
         </Grid>
       </Grid>

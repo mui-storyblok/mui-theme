@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { Redirect } from 'react-router-dom';
 import { Form, MuiInput, MuiSubmit } from 'rff-wrapper';
 import {
   Tooltip,
@@ -11,7 +12,7 @@ import {
 } from '@material-ui/core';
 import TextFormatIcon from '@material-ui/icons/TextFormat';
 
-export const AccessToken = ({ setAccessToken }) => {
+export const AccessToken = ({ setAccessToken, theme }) => {
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
@@ -23,8 +24,11 @@ export const AccessToken = ({ setAccessToken }) => {
   };
 
   const onSubmit = async (values) => {
-    setAccessToken({ accessToken: values.accessToken });
+    const { accessToken, pageRedirect } = values;
+    console.log(accessToken);
+    setAccessToken({ accessToken, theme });
     handleClose();
+    return <Redirect to={`/${pageRedirect}`} />;
   };
 
   return (
@@ -39,6 +43,7 @@ export const AccessToken = ({ setAccessToken }) => {
         <DialogContent>
           <Form onSubmit={onSubmit}>
             <MuiInput name="accessToken" placeholder="Storyblok Access Token" fullWidth />
+            <MuiInput name="pageRedirect" placeholder="Page Route Redirect" fullWidth />
             <DialogActions>
               <MuiSubmit buttonText="Use Token" />
             </DialogActions>
@@ -52,9 +57,8 @@ export const AccessToken = ({ setAccessToken }) => {
 export default AccessToken;
 
 AccessToken.propTypes = {
-  setAccessToken: PropTypes.func,
+  setAccessToken: PropTypes.func.isRequired,
+  theme: PropTypes.shape.isRequired,
 };
 
-AccessToken.defaultProps = {
-  setAccessToken: undefined,
-};
+AccessToken.defaultProps = {};
