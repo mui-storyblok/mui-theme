@@ -37,7 +37,7 @@ export const GoogleFonts = () => {
           <NoteAdd />
         </IconButton>
       </Tooltip>
-      <Dialog open={open} onClose={handleClose} style={{ padding: '100px' }}>
+      <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Google Font HREF</DialogTitle>
         <DialogContent>
           <DialogContentText>

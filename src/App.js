@@ -6,6 +6,7 @@ import Page from './components/Page/Page';
 import ViewThemeDialog from './components/ViewThemeDialog/ViewThemeDialog';
 import GoogleFonts from './components/GoogleFonts/GoogleFonts';
 import theme from './defaultMuiTheme';
+import AccessToken from './components/AccessToken/AccessToken';
 
 const App = () => {
   const [state, setState] = useState({
