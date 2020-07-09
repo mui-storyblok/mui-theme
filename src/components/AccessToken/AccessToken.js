@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Form, MuiInput, MuiSubmit } from 'rff-wrapper';
@@ -48,9 +49,10 @@ export const AccessToken = ({
         <DialogTitle>Add Storyblok Access Token</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            By default access token is for Woodriver Energy Storyblok.
+            By default access token is for a demo Storyblok site.
             Page Demo's include page-welcome, page-about, page-enroll.
-
+            Input access token for Storyblok environment and the Page desired to display theme on.
+            Page redirect requires forward slash (/) before route.
           </DialogContentText>
           <Form
             onSubmit={onSubmit}

@@ -16,7 +16,7 @@ export const Page = ({ accessToken, theme, pageRedirect }) => {
     if (page !== pageRedirect) {
       const { host } = window.location;
       setPage(pageRedirect);
-      window.history.pushState({}, null, `http://${host}/${pageRedirect}`);
+      window.history.pushState({}, null, `http://${host}${pageRedirect}`);
       toggleStoryblok();
     }
   }, [accessToken, page, pageRedirect, togglePage]);
