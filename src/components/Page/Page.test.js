@@ -15,6 +15,7 @@ function setup() {
     },
     theme: {},
     accessToken: '',
+    pageRedirect: '/',
   };
 
   const comp = mount(<Page {...props} />);
