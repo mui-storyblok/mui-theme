@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { Redirect } from 'react-router-dom';
 import { Form, MuiInput, MuiSubmit } from 'rff-wrapper';
 import {
   Tooltip,
@@ -12,7 +11,7 @@ import {
 } from '@material-ui/core';
 import TextFormatIcon from '@material-ui/icons/TextFormat';
 
-export const AccessToken = ({ setAccessToken, theme }) => {
+export const AccessToken = ({ setState, theme }) => {
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
@@ -26,9 +25,8 @@ export const AccessToken = ({ setAccessToken, theme }) => {
   const onSubmit = async (values) => {
     const { accessToken, pageRedirect } = values;
     console.log(accessToken);
-    setAccessToken({ accessToken, theme });
+    setState({ accessToken, theme, pageRedirect });
     handleClose();
-    return <Redirect to={`/${pageRedirect}`} />;
   };
 
   return (
@@ -57,7 +55,7 @@ export const AccessToken = ({ setAccessToken, theme }) => {
 export default AccessToken;
 
 AccessToken.propTypes = {
-  setAccessToken: PropTypes.func.isRequired,
+  setState: PropTypes.func.isRequired,
   theme: PropTypes.shape.isRequired,
 };
 

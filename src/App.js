@@ -38,7 +38,7 @@ const App = () => {
           style={{ overflow: 'scroll', maxHeight: '1000px', marginTop: '100px' }}
         >
           <Grid xs={12}>
-            <AccessToken setAccessToken={setState} theme={state.theme} />
+            <AccessToken setState={setState} theme={state.theme} />
             <ViewThemeDialog theme={state.theme} />
             <GoogleFonts />
           </Grid>
