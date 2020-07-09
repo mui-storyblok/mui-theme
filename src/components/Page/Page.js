@@ -4,38 +4,37 @@ import PropTypes from 'prop-types';
 
 export const Page = ({ accessToken, theme, pageRedirect }) => {
   const [page, setPage] = useState(window.location.pathname);
-  const [togglePage, setToggle] = useState(false);
+  const [togglePage, setToggle] = useState(true);
+  const toggleStoryblok = () => {
+    setToggle(false);
+    setTimeout(() => {
+      setToggle(true);
+    }, 100);
+  };
+
   useEffect(() => {
     if (page !== pageRedirect) {
       const { host } = window.location;
-      console.log(' Page is not the same');
       setPage(pageRedirect);
-      // window.location.assign(`http://${host}/${pageRedirect}`);
       window.history.pushState({}, null, `http://${host}/${pageRedirect}`);
-      console.log(window.location.pathname);
-      console.log('##################');
-      setToggle(!togglePage);
+      toggleStoryblok();
     }
-  }, [accessToken, page, pageRedirect]);
-  console.log(page);
+  }, [accessToken, page, pageRedirect, togglePage]);
+
   return (
-    togglePage
-      ? (
+    <>
+      {
+        togglePage
+        && (
         <MuiStoryblok
           useObjectTheme={true}
           theme={theme}
           accessToken={accessToken}
           version="draft"
         />
-      )
-      : (
-        <MuiStoryblok
-          useObjectTheme={true}
-          theme={theme}
-          accessToken={accessToken}
-          version="draft"
-        />
-      )
+        )
+      }
+    </>
   );
 };
 

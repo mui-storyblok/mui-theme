@@ -4,7 +4,8 @@ import { Form } from 'rff-wrapper';
 import arrayMutators from 'final-form-arrays';
 import RenderForm from './components/RenderForm/RenderForm';
 
-export const ThemeForm = ({ onSubmit,
+export const ThemeForm = ({
+  onSubmit,
   theme,
   accessToken,
   pageRedirect,

@@ -6,12 +6,18 @@ import {
   Dialog,
   DialogTitle,
   DialogContent,
+  DialogContentText,
   DialogActions,
   IconButton,
 } from '@material-ui/core';
 import TextFormatIcon from '@material-ui/icons/TextFormat';
 
-export const AccessToken = ({ setState, theme }) => {
+export const AccessToken = ({
+  setState,
+  theme,
+  accessToken,
+  pageRedirect,
+}) => {
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
@@ -23,9 +29,11 @@ export const AccessToken = ({ setState, theme }) => {
   };
 
   const onSubmit = async (values) => {
-    const { accessToken, pageRedirect } = values;
-    console.log(accessToken);
-    setState({ accessToken, theme, pageRedirect });
+    setState({
+      accessToken: values.accessToken,
+      theme,
+      pageRedirect: values.pageRedirect,
+    });
     handleClose();
   };
 
@@ -39,7 +47,18 @@ export const AccessToken = ({ setState, theme }) => {
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Add Storyblok Access Token</DialogTitle>
         <DialogContent>
-          <Form onSubmit={onSubmit}>
+          <DialogContentText>
+            By default access token is for Woodriver Energy Storyblok.
+            Page Demo's include page-welcome, page-about, page-enroll.
+
+          </DialogContentText>
+          <Form
+            onSubmit={onSubmit}
+            initialValues={{
+              accessToken,
+              pageRedirect,
+            }}
+          >
             <MuiInput name="accessToken" placeholder="Storyblok Access Token" fullWidth />
             <MuiInput name="pageRedirect" placeholder="Page Route Redirect" fullWidth />
             <DialogActions>
@@ -57,6 +76,8 @@ export default AccessToken;
 AccessToken.propTypes = {
   setState: PropTypes.func.isRequired,
   theme: PropTypes.shape.isRequired,
+  accessToken: PropTypes.string.isRequired,
+  pageRedirect: PropTypes.string.isRequired,
 };
 
 AccessToken.defaultProps = {};
