@@ -15,7 +15,7 @@ function setup() {
     },
     theme: {},
     accessToken: '',
-    pageRedirect: '/',
+    pageRedirect: '/apples',
   };
 
   const comp = mount(<Page {...props} />);
@@ -26,6 +26,15 @@ describe('<Page />', () => {
   it('renders Page', () => {
     const { comp } = setup();
     expect(comp).toBeDefined();
+  });
+
+
+  it('should toggle page when page, accessToken, or pageRedirect are changed', () => {
+    const { comp } = setup();
+    const page = comp.find('Page').first().props();
+    expect(page.pageRedirect).toEqual('/apples');
+    page.pageRedirect = '/test';
+    expect(page.pageRedirect).toEqual('/test');
   });
 
   test('snapshot', () => {
