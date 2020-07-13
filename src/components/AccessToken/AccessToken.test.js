@@ -59,8 +59,8 @@ describe('<AccessToken />', () => {
       dialogClose();
     });
     setTimeout(() => {
-      const dialogClosed = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('open');
-      expect(dialogClosed).toEqual(false);
+      const closeDialog = comp.find('WithStyles(ForwardRef(Dialog))').first().props();
+      expect(closeDialog.open).toEqual(false);
     }, 800);
   });
 
