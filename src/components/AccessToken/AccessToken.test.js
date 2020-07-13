@@ -32,7 +32,6 @@ describe('<AccessToken />', () => {
     const dialogOpen = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('open');
     expect(dialogOpen).toEqual(true);
 
-    // console.log(comp.find('input').at(1).props());
     const accessInput = comp.find('input').first();
     const pageInput = comp.find('input').at(1);
     accessInput.simulate('change', { target: { value: '9090' } });
