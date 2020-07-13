@@ -46,32 +46,20 @@ describe('<AccessToken />', () => {
     }, 400);
   });
 
-  it('should handle close', () => {
+  it('should handle close and close dialog when submitted or close is clicked', () => {
     const { comp } = setup();
-    const dialog = comp
-      .find('WithStyles(ForwardRef(Dialog))')
-      .first()
-      .prop('open');
-    expect(dialog).toEqual(false);
+    const dialog = comp.find('WithStyles(ForwardRef(Dialog))').first().props();
+    expect(dialog.open).toEqual(false);
     const iconBtn = comp.find('ForwardRef(IconButton)').first();
     iconBtn.simulate('click');
-    const dialogOpen = comp
-      .find('WithStyles(ForwardRef(Dialog))')
-      .first()
-      .prop('open');
-    expect(dialogOpen).toEqual(true);
-    const dialogClose = comp
-      .find('WithStyles(ForwardRef(Dialog))')
-      .first()
-      .prop('onClose');
+    const dialogOpen = comp.find('WithStyles(ForwardRef(Dialog))').first().props();
+    expect(dialogOpen.open).toEqual(true);
+    const dialogClose = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('onClose');
     act(() => {
       dialogClose();
     });
     setTimeout(() => {
-      const dialogClosed = comp
-        .find('WithStyles(ForwardRef(Dialog))')
-        .first()
-        .prop('open');
+      const dialogClosed = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('open');
       expect(dialogClosed).toEqual(false);
     }, 800);
   });
