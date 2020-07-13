@@ -54,11 +54,7 @@ const App = () => {
           </Grid>
         </Grid>
         <Grid item xs={8} style={{ overflow: 'scroll', maxHeight: '1000px' }}>
-          <Page
-            accessToken={state.accessToken}
-            theme={state.theme}
-            pageRedirect={state.pageRedirect}
-          />
+          {createElement(Page, sharedProps)}
         </Grid>
       </Grid>
     </BrowserRouter>
