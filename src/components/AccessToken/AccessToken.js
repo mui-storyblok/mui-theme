@@ -3,15 +3,14 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Form, MuiInput, MuiSubmit } from 'rff-wrapper';
 import {
-  Tooltip,
   Dialog,
   DialogTitle,
   DialogContent,
   DialogContentText,
   DialogActions,
-  IconButton,
 } from '@material-ui/core';
 import TextFormatIcon from '@material-ui/icons/TextFormat';
+import DialogIconButton from '../sharedComponents/DialogIconButton/DialogIconButton';
 
 export const AccessToken = ({
   setState,
@@ -40,11 +39,7 @@ export const AccessToken = ({
 
   return (
     <>
-      <Tooltip title="Storyblok Access Token" placement="top-end">
-        <IconButton onClick={handleOpen}>
-          <TextFormatIcon />
-        </IconButton>
-      </Tooltip>
+      <DialogIconButton title="Storyblok Access Token" handleOpen={handleOpen} icon={<TextFormatIcon />} />
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Add Storyblok Access Token</DialogTitle>
         <DialogContent>
