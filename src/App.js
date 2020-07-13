@@ -1,4 +1,4 @@
-import React, { useState, createElement } from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Grid } from '@material-ui/core';
 import ThemeForm from './components/ThemeForm/ThemeForm';
@@ -45,16 +45,16 @@ const App = () => {
           style={{ overflow: 'scroll', maxHeight: '1000px', marginTop: '100px' }}
         >
           <Grid xs={12}>
-            {createElement(AccessToken, { ...sharedProps, setState })}
+            <AccessToken {...sharedProps} setState={setState} />
             <ViewThemeDialog theme={state.theme} />
             <GoogleFonts />
           </Grid>
           <Grid xs={12}>
-            {createElement(ThemeForm, { ...sharedProps, onSubmit })}
+            <ThemeForm {...sharedProps} onSubmit={onSubmit} />
           </Grid>
         </Grid>
         <Grid item xs={8} style={{ overflow: 'scroll', maxHeight: '1000px' }}>
-          {createElement(Page, sharedProps)}
+          <Page {...sharedProps} />
         </Grid>
       </Grid>
     </BrowserRouter>
