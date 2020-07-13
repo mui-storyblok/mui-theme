@@ -24,7 +24,6 @@ const App = () => {
   };
 
   const sharedProps = {
-    setState,
     theme: state.theme,
     accessToken: state.accessToken,
     pageRedirect: state.pageRedirect,
