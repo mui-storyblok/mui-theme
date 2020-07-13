@@ -22,6 +22,7 @@ const App = () => {
       pageRedirect: values.pageRedirect,
     });
   };
+
   return (
     <BrowserRouter>
       <Grid
@@ -40,9 +41,9 @@ const App = () => {
           <Grid xs={12}>
             <AccessToken
               setState={setState}
-              theme={state.theme}
-              accessToken={state.accessToken}
               pageRedirect={state.pageRedirect}
+              accessToken={state.accessToken}
+              theme={state.theme}
             />
             <ViewThemeDialog theme={state.theme} />
             <GoogleFonts />
