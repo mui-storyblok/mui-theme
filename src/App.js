@@ -18,8 +18,8 @@ const App = () => {
   const onSubmit = async (values) => {
     setState({
       theme: values.theme,
-      accessToken: values.storyBlokAccessToken,
-      pageRedirect: values.pageRedirect,
+      accessToken: state.accessToken,
+      pageRedirect: state.pageRedirect,
     });
   };
 
@@ -50,7 +50,7 @@ const App = () => {
             <GoogleFonts />
           </Grid>
           <Grid xs={12}>
-            <ThemeForm {...sharedProps} onSubmit={onSubmit} />
+            <ThemeForm theme={state.theme} onSubmit={onSubmit} />
           </Grid>
         </Grid>
         <Grid item xs={8} style={{ overflow: 'scroll', maxHeight: '1000px' }}>
