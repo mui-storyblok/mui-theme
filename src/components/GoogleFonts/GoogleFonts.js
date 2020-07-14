@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
 import { Form, MuiInput, MuiSubmit } from 'rff-wrapper';
 import {
-  Tooltip,
   Dialog,
   DialogTitle,
   DialogContent,
   DialogContentText,
   DialogActions,
-  IconButton,
 } from '@material-ui/core';
 import { NoteAdd } from '@material-ui/icons';
+import DialogIconButton from '../sharedComponents/DialogIconButton/DialogIconButton';
 
 export const GoogleFonts = () => {
   const [open, setOpen] = useState(false);
@@ -32,12 +31,8 @@ export const GoogleFonts = () => {
 
   return (
     <>
-      <Tooltip title="Add Google Font" placement="top-end">
-        <IconButton onClick={handleOpen}>
-          <NoteAdd />
-        </IconButton>
-      </Tooltip>
-      <Dialog open={open} onClose={handleClose} style={{ padding: '100px' }}>
+      <DialogIconButton title="Add Google Font" handleOpen={handleOpen} icon={<NoteAdd />} />
+      <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Google Font HREF</DialogTitle>
         <DialogContent>
           <DialogContentText>
