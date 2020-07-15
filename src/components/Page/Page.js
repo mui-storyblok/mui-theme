@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 export const Page = ({ accessToken, theme, pageRedirect }) => {
   const [page, setPage] = useState(window.location.pathname);
+  const [currentAccessToken, setAccessToken] = useState(accessToken);
   const [togglePage, setToggle] = useState(true);
   const toggleStoryblok = () => {
     setToggle(false);
@@ -13,9 +14,10 @@ export const Page = ({ accessToken, theme, pageRedirect }) => {
   };
 
   useEffect(() => {
-    if (page !== pageRedirect) {
+    if (page !== pageRedirect || currentAccessToken !== accessToken) {
       const { host } = window.location;
       setPage(pageRedirect);
+      setAccessToken(accessToken);
       window.history.pushState({}, null, `http://${host}${pageRedirect}`);
       toggleStoryblok();
     }
