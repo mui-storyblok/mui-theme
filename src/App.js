@@ -7,6 +7,7 @@ import ViewThemeDialog from './components/ViewThemeDialog/ViewThemeDialog';
 import GoogleFonts from './components/GoogleFonts/GoogleFonts';
 import theme from './defaultMuiTheme';
 import AccessToken from './components/AccessToken/AccessToken';
+import ImportTheme from './components/ImportTheme/ImportTheme';
 
 const App = () => {
   const [state, setState] = useState({
@@ -48,6 +49,7 @@ const App = () => {
             <AccessToken {...sharedProps} setState={setState} />
             <ViewThemeDialog theme={state.theme} />
             <GoogleFonts />
+            <ImportTheme {...sharedProps} setState={setState} />
           </Grid>
           <Grid xs={12}>
             <ThemeForm theme={state.theme} onSubmit={onSubmit} />
