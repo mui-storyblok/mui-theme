@@ -31,10 +31,11 @@ export const ImportTheme = ({
   const onSubmit = async (values) => {
     const { importTheme } = values;
     const base64Split = importTheme.split('data:application/json;base64,');
-    const updatedTheme = base64url.decode(base64Split[1]);
+    const decodedTheme = base64url.decode(base64Split[1]);
+    const newThemeImport = JSON.parse(decodedTheme);
     setState({
       accessToken,
-      theme: updatedTheme,
+      theme: newThemeImport,
       pageRedirect,
     });
     handleClose();
