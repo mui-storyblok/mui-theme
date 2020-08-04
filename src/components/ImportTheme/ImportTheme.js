@@ -14,7 +14,6 @@ import DialogIconButton from '../sharedComponents/DialogIconButton/DialogIconBut
 
 export const ImportTheme = ({
   setState,
-  theme,
   accessToken,
   pageRedirect,
 }) => {
@@ -30,6 +29,8 @@ export const ImportTheme = ({
 
   const onSubmit = async (values) => {
     const { importTheme } = values;
+    console.log('########################### On submit entered ###########################');
+    console.log('************** : ', importTheme);
     const base64Split = importTheme.split('data:application/json;base64,');
     const decodedTheme = base64url.decode(base64Split[1]);
     const newThemeImport = JSON.parse(decodedTheme);
@@ -48,15 +49,12 @@ export const ImportTheme = ({
         <DialogTitle>Add Storyblok Access Token</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            Drag .json file to file input to import theme.
+            Drag or Select .json file to file input to import theme.
           </DialogContentText>
           <Form
             onSubmit={onSubmit}
-            initialValues={{
-              theme,
-            }}
           >
-            <FileInput name="importTheme" acceptFileTypes={['application/json']} />
+            <FileInput name="importTheme" acceptFileTypes={['application/json']} validate={value => (value ? undefined : 'JSON FIle Required')} />
             <DialogActions>
               <MuiSubmit buttonText="Import Theme" />
             </DialogActions>
@@ -72,7 +70,6 @@ export default ImportTheme;
 ImportTheme.propTypes = {
   accessToken: PropTypes.string.isRequired,
   setState: PropTypes.func.isRequired,
-  theme: PropTypes.shape.isRequired,
   pageRedirect: PropTypes.string.isRequired,
 };
 

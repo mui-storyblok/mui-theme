@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React from 'react';
 import { mount } from 'enzyme';
 import { act } from 'react-dom/test-utils';
@@ -22,10 +23,34 @@ describe('<ImportTheme />', () => {
     expect(comp).toBeDefined();
   });
 
-  it('should handleSubmit and take imported theme value and decode it', () => {
+  it('should handleSubmit and take imported theme value and decode it', async () => {
     const { comp } = setup();
+    global.URL.createObjectURL = jest.fn(() => 'details');
+    const field = {
+      input: {
+        onChange: jest.fn(),
+      },
+    };
+    // const file = new File([JSON.stringify({ ping: true })], 'ping.json', {
+    //   type: 'application/json',
+    // });
+    const file = new File([], 'test.json', { type: 'application/json' });
     const iconBtn = comp.find('ForwardRef(IconButton)').first();
-    console.log(comp.debug());
+    iconBtn.simulate('click');
+    const dialogOpen = comp.find('WithStyles(ForwardRef(Dialog))').first().prop('open');
+    expect(dialogOpen).toEqual(true);
+    act(() => {
+      const { onDrop } = comp.find('[data-testid="DropzoneInput"]').first().props();
+      onDrop([file], [], field, jest.fn());
+    });
+    act(() => {
+      const form = comp.find('form').first();
+      form.simulate('submit');
+    });
+    setTimeout(() => {
+      const closeDialog = comp.find('WithStyles(ForwardRef(Dialog))').first().props();
+      expect(closeDialog.open).toEqual(false);
+    }, 800);
   });
 
   it('should handle close and close dialog when submitted or close is clicked', () => {
