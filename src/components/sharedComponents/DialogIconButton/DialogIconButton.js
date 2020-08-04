@@ -20,7 +20,10 @@ export const DialogIconButton = ({
 export default DialogIconButton;
 
 DialogIconButton.propTypes = {
+  // Title of tooltip
   title: PropTypes.string.isRequired,
+  // Handle Open function passed down
   handleOpen: PropTypes.func.isRequired,
+  // Icon Component passed down from parent component
   icon: PropTypes.node.isRequired,
 };
