@@ -29,8 +29,6 @@ export const ImportTheme = ({
 
   const onSubmit = async (values) => {
     const { importTheme } = values;
-    console.log('########################### On submit entered ###########################');
-    console.log('************** : ', importTheme);
     const base64Split = importTheme.split('data:application/json;base64,');
     const decodedTheme = base64url.decode(base64Split[1]);
     const newThemeImport = JSON.parse(decodedTheme);
