@@ -100,6 +100,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "base64url": "^3.0.1",
     "copy-to-clipboard": "^3.3.1",
     "enzyme-adapter-react-16": "^1.15.2",
     "jsdom": "^16.2.2",
@@ -108,7 +109,7 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "rff-wrapper": "^1.0.16"
+    "rff-wrapper": "^1.0.23"
   },
   "scripts": {
     "test-ci": "react-scripts test --env=jsdom --coverage --runInBand --testPathPattern=src",
