@@ -8,6 +8,7 @@ import GoogleFonts from './components/GoogleFonts/GoogleFonts';
 import theme from './defaultMuiTheme';
 import AccessToken from './components/AccessToken/AccessToken';
 import ImportTheme from './components/ImportTheme/ImportTheme';
+import { setThemeToLocalStore } from './Utils/localStorage';
 
 const App = () => {
   const [state, setState] = useState({
@@ -17,6 +18,8 @@ const App = () => {
   });
 
   const onSubmit = async (values) => {
+    setThemeToLocalStore(values.theme);
+
     setState({
       theme: values.theme,
       accessToken: state.accessToken,
