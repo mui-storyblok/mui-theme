@@ -8,6 +8,7 @@ import GoogleFonts from './components/GoogleFonts/GoogleFonts';
 import theme from './defaultMuiTheme';
 import AccessToken from './components/AccessToken/AccessToken';
 import ImportTheme from './components/ImportTheme/ImportTheme';
+import ResetTheme from './components/ResetTheme/ResetTheme';
 import { setThemeToLocalStore } from './Utils/localStorage';
 
 const App = () => {
@@ -53,6 +54,7 @@ const App = () => {
             <ViewThemeDialog theme={state.theme} />
             <GoogleFonts />
             <ImportTheme {...sharedProps} setState={setState} />
+            <ResetTheme />
           </Grid>
           <Grid xs={12}>
             <ThemeForm theme={state.theme} onSubmit={onSubmit} />
