@@ -298,6 +298,274 @@ exports[`<App /> snapshot 1`] = `
                       className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
                     >
                       <div
+                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                        data-testid="muiinput"
+                        field={
+                          Object {
+                            "input": Object {
+                              "checked": undefined,
+                              "name": "theme.palette.type",
+                              "onBlur": [Function],
+                              "onChange": [Function],
+                              "onFocus": [Function],
+                              "type": "text",
+                              "value": "light",
+                            },
+                            "meta": Object {
+                              "active": false,
+                              "data": Object {},
+                              "dirty": false,
+                              "dirtySinceLastSubmit": false,
+                              "error": undefined,
+                              "initial": "light",
+                              "invalid": false,
+                              "length": undefined,
+                              "modified": false,
+                              "modifiedSinceLastSubmit": false,
+                              "pristine": true,
+                              "submitError": undefined,
+                              "submitFailed": false,
+                              "submitSucceeded": false,
+                              "submitting": false,
+                              "touched": false,
+                              "valid": true,
+                              "validating": false,
+                              "visited": false,
+                            },
+                          }
+                        }
+                      >
+                        <label
+                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                          data-shrink={false}
+                        >
+                          theme.palette.type
+                        </label>
+                        <div
+                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                          onClick={[Function]}
+                        >
+                          <input
+                            aria-invalid={false}
+                            autoComplete=""
+                            autoFocus={false}
+                            className="MuiInputBase-input MuiInput-input"
+                            disabled={false}
+                            name="theme.palette.type"
+                            onAnimationStart={[Function]}
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            placeholder=""
+                            required={false}
+                            rows=""
+                            type="text"
+                            value="light"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                        data-testid="muiinput"
+                        field={
+                          Object {
+                            "input": Object {
+                              "checked": undefined,
+                              "name": "theme.palette.contrastThreshold",
+                              "onBlur": [Function],
+                              "onChange": [Function],
+                              "onFocus": [Function],
+                              "type": "number",
+                              "value": 3,
+                            },
+                            "meta": Object {
+                              "active": false,
+                              "data": Object {},
+                              "dirty": false,
+                              "dirtySinceLastSubmit": false,
+                              "error": undefined,
+                              "initial": 3,
+                              "invalid": false,
+                              "length": undefined,
+                              "modified": false,
+                              "modifiedSinceLastSubmit": false,
+                              "pristine": true,
+                              "submitError": undefined,
+                              "submitFailed": false,
+                              "submitSucceeded": false,
+                              "submitting": false,
+                              "touched": false,
+                              "valid": true,
+                              "validating": false,
+                              "visited": false,
+                            },
+                          }
+                        }
+                      >
+                        <label
+                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                          data-shrink={false}
+                        >
+                          theme.palette.contrastThreshold
+                        </label>
+                        <div
+                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                          onClick={[Function]}
+                        >
+                          <input
+                            aria-invalid={false}
+                            autoComplete=""
+                            autoFocus={false}
+                            className="MuiInputBase-input MuiInput-input"
+                            disabled={false}
+                            name="theme.palette.contrastThreshold"
+                            onAnimationStart={[Function]}
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            placeholder=""
+                            required={false}
+                            rows=""
+                            type="number"
+                            value={3}
+                          />
+                        </div>
+                      </div>
+                      <div
+                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                        data-testid="muiinput"
+                        field={
+                          Object {
+                            "input": Object {
+                              "checked": undefined,
+                              "name": "theme.palette.tonalOffset",
+                              "onBlur": [Function],
+                              "onChange": [Function],
+                              "onFocus": [Function],
+                              "type": "number",
+                              "value": 0.2,
+                            },
+                            "meta": Object {
+                              "active": false,
+                              "data": Object {},
+                              "dirty": false,
+                              "dirtySinceLastSubmit": false,
+                              "error": undefined,
+                              "initial": 0.2,
+                              "invalid": false,
+                              "length": undefined,
+                              "modified": false,
+                              "modifiedSinceLastSubmit": false,
+                              "pristine": true,
+                              "submitError": undefined,
+                              "submitFailed": false,
+                              "submitSucceeded": false,
+                              "submitting": false,
+                              "touched": false,
+                              "valid": true,
+                              "validating": false,
+                              "visited": false,
+                            },
+                          }
+                        }
+                      >
+                        <label
+                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                          data-shrink={false}
+                        >
+                          theme.palette.tonalOffset
+                        </label>
+                        <div
+                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                          onClick={[Function]}
+                        >
+                          <input
+                            aria-invalid={false}
+                            autoComplete=""
+                            autoFocus={false}
+                            className="MuiInputBase-input MuiInput-input"
+                            disabled={false}
+                            name="theme.palette.tonalOffset"
+                            onAnimationStart={[Function]}
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            placeholder=""
+                            required={false}
+                            rows=""
+                            type="number"
+                            value={0.2}
+                          />
+                        </div>
+                      </div>
+                      <div
+                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                        data-testid="muiinput"
+                        field={
+                          Object {
+                            "input": Object {
+                              "checked": undefined,
+                              "name": "theme.palette.divider",
+                              "onBlur": [Function],
+                              "onChange": [Function],
+                              "onFocus": [Function],
+                              "type": "color",
+                              "value": "rgba(0, 0, 0, 0.12)",
+                            },
+                            "meta": Object {
+                              "active": false,
+                              "data": Object {},
+                              "dirty": false,
+                              "dirtySinceLastSubmit": false,
+                              "error": undefined,
+                              "initial": "rgba(0, 0, 0, 0.12)",
+                              "invalid": false,
+                              "length": undefined,
+                              "modified": false,
+                              "modifiedSinceLastSubmit": false,
+                              "pristine": true,
+                              "submitError": undefined,
+                              "submitFailed": false,
+                              "submitSucceeded": false,
+                              "submitting": false,
+                              "touched": false,
+                              "valid": true,
+                              "validating": false,
+                              "visited": false,
+                            },
+                          }
+                        }
+                      >
+                        <label
+                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                          data-shrink={false}
+                        >
+                          theme.palette.divider
+                        </label>
+                        <div
+                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                          onClick={[Function]}
+                        >
+                          <input
+                            aria-invalid={false}
+                            autoComplete=""
+                            autoFocus={false}
+                            className="MuiInputBase-input MuiInput-input"
+                            disabled={false}
+                            name="theme.palette.divider"
+                            onAnimationStart={[Function]}
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            placeholder=""
+                            required={false}
+                            rows=""
+                            type="color"
+                            value="rgba(0, 0, 0, 0.12)"
+                          />
+                        </div>
+                      </div>
+                      <div
                         className="MuiPaper-root MuiExpansionPanel-root MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded"
                         style={
                           Object {
@@ -539,70 +807,244 @@ exports[`<App /> snapshot 1`] = `
                         </div>
                       </div>
                       <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
+                        className="MuiPaper-root MuiExpansionPanel-root MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                        style={
                           Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.palette.type",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "text",
-                              "value": "light",
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": "light",
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
+                            "width": "100%",
                           }
                         }
                       >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.palette.type
-                        </label>
                         <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                          aria-disabled={false}
+                          aria-expanded={false}
+                          className="MuiButtonBase-root MuiExpansionPanelSummary-root"
+                          onBlur={[Function]}
                           onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          role="button"
+                          tabIndex={0}
                         >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.palette.type"
-                            onAnimationStart={[Function]}
+                          <div
+                            className="MuiExpansionPanelSummary-content"
+                          >
+                            <p
+                              className="MuiTypography-root MuiTypography-body1"
+                            >
+                              theme.palette.background
+                            </p>
+                          </div>
+                          <div
+                            aria-disabled={false}
+                            aria-hidden={true}
+                            className="MuiButtonBase-root MuiIconButton-root MuiExpansionPanelSummary-expandIcon MuiIconButton-edgeEnd"
                             onBlur={[Function]}
-                            onChange={[Function]}
+                            onDragLeave={[Function]}
                             onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="text"
-                            value="light"
-                          />
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            role={null}
+                            tabIndex={null}
+                          >
+                            <span
+                              className="MuiIconButton-label"
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                                />
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                              </svg>
+                            </span>
+                            <span
+                              className="MuiTouchRipple-root"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          className="MuiCollapse-container MuiCollapse-hidden"
+                          style={
+                            Object {
+                              "minHeight": "0px",
+                            }
+                          }
+                        >
+                          <div
+                            className="MuiCollapse-wrapper"
+                          >
+                            <div
+                              className="MuiCollapse-wrapperInner"
+                            >
+                              <div
+                                role="region"
+                              >
+                                <div
+                                  className="MuiExpansionPanelDetails-root"
+                                >
+                                  <div
+                                    className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
+                                  >
+                                    <div
+                                      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                                      data-testid="muiinput"
+                                      field={
+                                        Object {
+                                          "input": Object {
+                                            "checked": undefined,
+                                            "name": "theme.palette.background.paper",
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onFocus": [Function],
+                                            "type": "color",
+                                            "value": "#fff",
+                                          },
+                                          "meta": Object {
+                                            "active": false,
+                                            "data": Object {},
+                                            "dirty": false,
+                                            "dirtySinceLastSubmit": false,
+                                            "error": undefined,
+                                            "initial": "#fff",
+                                            "invalid": false,
+                                            "length": undefined,
+                                            "modified": false,
+                                            "modifiedSinceLastSubmit": false,
+                                            "pristine": true,
+                                            "submitError": undefined,
+                                            "submitFailed": false,
+                                            "submitSucceeded": false,
+                                            "submitting": false,
+                                            "touched": false,
+                                            "valid": true,
+                                            "validating": false,
+                                            "visited": false,
+                                          },
+                                        }
+                                      }
+                                    >
+                                      <label
+                                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                                        data-shrink={false}
+                                      >
+                                        theme.palette.background.paper
+                                      </label>
+                                      <div
+                                        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                        onClick={[Function]}
+                                      >
+                                        <input
+                                          aria-invalid={false}
+                                          autoComplete=""
+                                          autoFocus={false}
+                                          className="MuiInputBase-input MuiInput-input"
+                                          disabled={false}
+                                          name="theme.palette.background.paper"
+                                          onAnimationStart={[Function]}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          placeholder=""
+                                          required={false}
+                                          rows=""
+                                          type="color"
+                                          value="#fff"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div
+                                      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                                      data-testid="muiinput"
+                                      field={
+                                        Object {
+                                          "input": Object {
+                                            "checked": undefined,
+                                            "name": "theme.palette.background.default",
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onFocus": [Function],
+                                            "type": "color",
+                                            "value": "#fafafa",
+                                          },
+                                          "meta": Object {
+                                            "active": false,
+                                            "data": Object {},
+                                            "dirty": false,
+                                            "dirtySinceLastSubmit": false,
+                                            "error": undefined,
+                                            "initial": "#fafafa",
+                                            "invalid": false,
+                                            "length": undefined,
+                                            "modified": false,
+                                            "modifiedSinceLastSubmit": false,
+                                            "pristine": true,
+                                            "submitError": undefined,
+                                            "submitFailed": false,
+                                            "submitSucceeded": false,
+                                            "submitting": false,
+                                            "touched": false,
+                                            "valid": true,
+                                            "validating": false,
+                                            "visited": false,
+                                          },
+                                        }
+                                      }
+                                    >
+                                      <label
+                                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                                        data-shrink={false}
+                                      >
+                                        theme.palette.background.default
+                                      </label>
+                                      <div
+                                        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                        onClick={[Function]}
+                                      >
+                                        <input
+                                          aria-invalid={false}
+                                          autoComplete=""
+                                          autoFocus={false}
+                                          className="MuiInputBase-input MuiInput-input"
+                                          disabled={false}
+                                          name="theme.palette.background.default"
+                                          onAnimationStart={[Function]}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          placeholder=""
+                                          required={false}
+                                          rows=""
+                                          type="color"
+                                          value="#fafafa"
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                       <div
@@ -3901,140 +4343,6 @@ exports[`<App /> snapshot 1`] = `
                         </div>
                       </div>
                       <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.palette.contrastThreshold",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "number",
-                              "value": 3,
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": 3,
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
-                          }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.palette.contrastThreshold
-                        </label>
-                        <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.palette.contrastThreshold"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="number"
-                            value={3}
-                          />
-                        </div>
-                      </div>
-                      <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.palette.tonalOffset",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "number",
-                              "value": 0.2,
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": 0.2,
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
-                          }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.palette.tonalOffset
-                        </label>
-                        <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.palette.tonalOffset"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="number"
-                            value={0.2}
-                          />
-                        </div>
-                      </div>
-                      <div
                         className="MuiPaper-root MuiExpansionPanel-root MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded"
                         style={
                           Object {
@@ -4410,1155 +4718,847 @@ exports[`<App /> snapshot 1`] = `
                         </div>
                       </div>
                       <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
+                        className="MuiPaper-root MuiExpansionPanel-root MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded"
+                        style={
                           Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.palette.divider",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "color",
-                              "value": "rgba(0, 0, 0, 0.12)",
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": "rgba(0, 0, 0, 0.12)",
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
+                            "width": "100%",
                           }
                         }
                       >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.palette.divider
-                        </label>
                         <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                          aria-disabled={false}
+                          aria-expanded={false}
+                          className="MuiButtonBase-root MuiExpansionPanelSummary-root"
+                          onBlur={[Function]}
                           onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          role="button"
+                          tabIndex={0}
                         >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.palette.divider"
-                            onAnimationStart={[Function]}
+                          <div
+                            className="MuiExpansionPanelSummary-content"
+                          >
+                            <p
+                              className="MuiTypography-root MuiTypography-body1"
+                            >
+                              theme.palette.action
+                            </p>
+                          </div>
+                          <div
+                            aria-disabled={false}
+                            aria-hidden={true}
+                            className="MuiButtonBase-root MuiIconButton-root MuiExpansionPanelSummary-expandIcon MuiIconButton-edgeEnd"
                             onBlur={[Function]}
-                            onChange={[Function]}
+                            onDragLeave={[Function]}
                             onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="color"
-                            value="rgba(0, 0, 0, 0.12)"
-                          />
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            role={null}
+                            tabIndex={null}
+                          >
+                            <span
+                              className="MuiIconButton-label"
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                                />
+                                <path
+                                  d="M0 0h24v24H0z"
+                                  fill="none"
+                                />
+                              </svg>
+                            </span>
+                            <span
+                              className="MuiTouchRipple-root"
+                            />
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="MuiPaper-root MuiExpansionPanel-root MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded"
-          style={
-            Object {
-              "width": "100%",
-            }
-          }
-        >
-          <div
-            aria-disabled={false}
-            aria-expanded={false}
-            className="MuiButtonBase-root MuiExpansionPanelSummary-root"
-            onBlur={[Function]}
-            onClick={[Function]}
-            onDragLeave={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            role="button"
-            tabIndex={0}
-          >
-            <div
-              className="MuiExpansionPanelSummary-content"
-            >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
-              >
-                theme.background
-              </p>
-            </div>
-            <div
-              aria-disabled={false}
-              aria-hidden={true}
-              className="MuiButtonBase-root MuiIconButton-root MuiExpansionPanelSummary-expandIcon MuiIconButton-edgeEnd"
-              onBlur={[Function]}
-              onDragLeave={[Function]}
-              onFocus={[Function]}
-              onKeyDown={[Function]}
-              onKeyUp={[Function]}
-              onMouseDown={[Function]}
-              onMouseLeave={[Function]}
-              onMouseUp={[Function]}
-              onTouchEnd={[Function]}
-              onTouchMove={[Function]}
-              onTouchStart={[Function]}
-              role={null}
-              tabIndex={null}
-            >
-              <span
-                className="MuiIconButton-label"
-              >
-                <svg
-                  aria-hidden={true}
-                  className="MuiSvgIcon-root"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                  />
-                  <path
-                    d="M0 0h24v24H0z"
-                    fill="none"
-                  />
-                </svg>
-              </span>
-              <span
-                className="MuiTouchRipple-root"
-              />
-            </div>
-          </div>
-          <div
-            className="MuiCollapse-container MuiCollapse-hidden"
-            style={
-              Object {
-                "minHeight": "0px",
-              }
-            }
-          >
-            <div
-              className="MuiCollapse-wrapper"
-            >
-              <div
-                className="MuiCollapse-wrapperInner"
-              >
-                <div
-                  role="region"
-                >
-                  <div
-                    className="MuiExpansionPanelDetails-root"
-                  >
-                    <div
-                      className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
-                    >
-                      <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.background.paper",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "color",
-                              "value": "#fff",
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": "#fff",
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
-                          }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.background.paper
-                        </label>
                         <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.background.paper"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="color"
-                            value="#fff"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.background.default",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "color",
-                              "value": "#fafafa",
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": "#fafafa",
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
+                          className="MuiCollapse-container MuiCollapse-hidden"
+                          style={
+                            Object {
+                              "minHeight": "0px",
+                            }
                           }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
                         >
-                          theme.background.default
-                        </label>
-                        <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.background.default"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="color"
-                            value="#fafafa"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="MuiPaper-root MuiExpansionPanel-root MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded"
-          style={
-            Object {
-              "width": "100%",
-            }
-          }
-        >
-          <div
-            aria-disabled={false}
-            aria-expanded={false}
-            className="MuiButtonBase-root MuiExpansionPanelSummary-root"
-            onBlur={[Function]}
-            onClick={[Function]}
-            onDragLeave={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            role="button"
-            tabIndex={0}
-          >
-            <div
-              className="MuiExpansionPanelSummary-content"
-            >
-              <p
-                className="MuiTypography-root MuiTypography-body1"
-              >
-                theme.action
-              </p>
-            </div>
-            <div
-              aria-disabled={false}
-              aria-hidden={true}
-              className="MuiButtonBase-root MuiIconButton-root MuiExpansionPanelSummary-expandIcon MuiIconButton-edgeEnd"
-              onBlur={[Function]}
-              onDragLeave={[Function]}
-              onFocus={[Function]}
-              onKeyDown={[Function]}
-              onKeyUp={[Function]}
-              onMouseDown={[Function]}
-              onMouseLeave={[Function]}
-              onMouseUp={[Function]}
-              onTouchEnd={[Function]}
-              onTouchMove={[Function]}
-              onTouchStart={[Function]}
-              role={null}
-              tabIndex={null}
-            >
-              <span
-                className="MuiIconButton-label"
-              >
-                <svg
-                  aria-hidden={true}
-                  className="MuiSvgIcon-root"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                  />
-                  <path
-                    d="M0 0h24v24H0z"
-                    fill="none"
-                  />
-                </svg>
-              </span>
-              <span
-                className="MuiTouchRipple-root"
-              />
-            </div>
-          </div>
-          <div
-            className="MuiCollapse-container MuiCollapse-hidden"
-            style={
-              Object {
-                "minHeight": "0px",
-              }
-            }
-          >
-            <div
-              className="MuiCollapse-wrapper"
-            >
-              <div
-                className="MuiCollapse-wrapperInner"
-              >
-                <div
-                  role="region"
-                >
-                  <div
-                    className="MuiExpansionPanelDetails-root"
-                  >
-                    <div
-                      className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
-                    >
-                      <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.action.active",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "color",
-                              "value": "rgba(0, 0, 0, 0.54),",
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": "rgba(0, 0, 0, 0.54),",
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
-                          }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.action.active
-                        </label>
-                        <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.action.active"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="color"
-                            value="rgba(0, 0, 0, 0.54),"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.action.hover",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "color",
-                              "value": "rgba(0, 0, 0, 0.04),",
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": "rgba(0, 0, 0, 0.04),",
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
-                          }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.action.hover
-                        </label>
-                        <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.action.hover"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="color"
-                            value="rgba(0, 0, 0, 0.04),"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.action.hoverOpacity",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "number",
-                              "value": 0.04,
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": 0.04,
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
-                          }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.action.hoverOpacity
-                        </label>
-                        <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.action.hoverOpacity"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="number"
-                            value={0.04}
-                          />
-                        </div>
-                      </div>
-                      <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.action.selected",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "color",
-                              "value": "rgba(0, 0, 0, 0.08),",
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": "rgba(0, 0, 0, 0.08),",
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
-                          }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.action.selected
-                        </label>
-                        <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.action.selected"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="color"
-                            value="rgba(0, 0, 0, 0.08),"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.action.selectedOpacity",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "number",
-                              "value": 0.08,
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": 0.08,
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
-                          }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.action.selectedOpacity
-                        </label>
-                        <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.action.selectedOpacity"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="number"
-                            value={0.08}
-                          />
-                        </div>
-                      </div>
-                      <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.action.disabled",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "color",
-                              "value": "rgba(0, 0, 0, 0.26)",
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": "rgba(0, 0, 0, 0.26)",
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
-                          }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.action.disabled
-                        </label>
-                        <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.action.disabled"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="color"
-                            value="rgba(0, 0, 0, 0.26)"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.action.disabledBackground",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "color",
-                              "value": "rgba(0, 0, 0, 0.12)",
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": "rgba(0, 0, 0, 0.12)",
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
-                          }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.action.disabledBackground
-                        </label>
-                        <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.action.disabledBackground"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="color"
-                            value="rgba(0, 0, 0, 0.12)"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.action.disabledOpacity",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "number",
-                              "value": 0.38,
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": 0.38,
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
-                          }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.action.disabledOpacity
-                        </label>
-                        <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.action.disabledOpacity"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="number"
-                            value={0.38}
-                          />
-                        </div>
-                      </div>
-                      <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.action.focus",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "color",
-                              "value": "rgba(0, 0, 0, 0.12)",
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": "rgba(0, 0, 0, 0.12)",
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
-                          }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.action.focus
-                        </label>
-                        <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.action.focus"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="color"
-                            value="rgba(0, 0, 0, 0.12)"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.action.focusOpacity",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "number",
-                              "value": 0.12,
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": 0.12,
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
-                          }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.action.focusOpacity
-                        </label>
-                        <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.action.focusOpacity"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="number"
-                            value={0.12}
-                          />
-                        </div>
-                      </div>
-                      <div
-                        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
-                        data-testid="muiinput"
-                        field={
-                          Object {
-                            "input": Object {
-                              "checked": undefined,
-                              "name": "theme.action.activatedOpacity",
-                              "onBlur": [Function],
-                              "onChange": [Function],
-                              "onFocus": [Function],
-                              "type": "number",
-                              "value": 0.12,
-                            },
-                            "meta": Object {
-                              "active": false,
-                              "data": Object {},
-                              "dirty": false,
-                              "dirtySinceLastSubmit": false,
-                              "error": undefined,
-                              "initial": 0.12,
-                              "invalid": false,
-                              "length": undefined,
-                              "modified": false,
-                              "modifiedSinceLastSubmit": false,
-                              "pristine": true,
-                              "submitError": undefined,
-                              "submitFailed": false,
-                              "submitSucceeded": false,
-                              "submitting": false,
-                              "touched": false,
-                              "valid": true,
-                              "validating": false,
-                              "visited": false,
-                            },
-                          }
-                        }
-                      >
-                        <label
-                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                          data-shrink={false}
-                        >
-                          theme.action.activatedOpacity
-                        </label>
-                        <div
-                          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
-                          onClick={[Function]}
-                        >
-                          <input
-                            aria-invalid={false}
-                            autoComplete=""
-                            autoFocus={false}
-                            className="MuiInputBase-input MuiInput-input"
-                            disabled={false}
-                            name="theme.action.activatedOpacity"
-                            onAnimationStart={[Function]}
-                            onBlur={[Function]}
-                            onChange={[Function]}
-                            onFocus={[Function]}
-                            placeholder=""
-                            required={false}
-                            rows=""
-                            type="number"
-                            value={0.12}
-                          />
+                          <div
+                            className="MuiCollapse-wrapper"
+                          >
+                            <div
+                              className="MuiCollapse-wrapperInner"
+                            >
+                              <div
+                                role="region"
+                              >
+                                <div
+                                  className="MuiExpansionPanelDetails-root"
+                                >
+                                  <div
+                                    className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
+                                  >
+                                    <div
+                                      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                                      data-testid="muiinput"
+                                      field={
+                                        Object {
+                                          "input": Object {
+                                            "checked": undefined,
+                                            "name": "theme.palette.action.hoverOpacity",
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onFocus": [Function],
+                                            "type": "number",
+                                            "value": 0.04,
+                                          },
+                                          "meta": Object {
+                                            "active": false,
+                                            "data": Object {},
+                                            "dirty": false,
+                                            "dirtySinceLastSubmit": false,
+                                            "error": undefined,
+                                            "initial": 0.04,
+                                            "invalid": false,
+                                            "length": undefined,
+                                            "modified": false,
+                                            "modifiedSinceLastSubmit": false,
+                                            "pristine": true,
+                                            "submitError": undefined,
+                                            "submitFailed": false,
+                                            "submitSucceeded": false,
+                                            "submitting": false,
+                                            "touched": false,
+                                            "valid": true,
+                                            "validating": false,
+                                            "visited": false,
+                                          },
+                                        }
+                                      }
+                                    >
+                                      <label
+                                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                                        data-shrink={false}
+                                      >
+                                        theme.palette.action.hoverOpacity
+                                      </label>
+                                      <div
+                                        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                        onClick={[Function]}
+                                      >
+                                        <input
+                                          aria-invalid={false}
+                                          autoComplete=""
+                                          autoFocus={false}
+                                          className="MuiInputBase-input MuiInput-input"
+                                          disabled={false}
+                                          name="theme.palette.action.hoverOpacity"
+                                          onAnimationStart={[Function]}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          placeholder=""
+                                          required={false}
+                                          rows=""
+                                          type="number"
+                                          value={0.04}
+                                        />
+                                      </div>
+                                    </div>
+                                    <div
+                                      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                                      data-testid="muiinput"
+                                      field={
+                                        Object {
+                                          "input": Object {
+                                            "checked": undefined,
+                                            "name": "theme.palette.action.selectedOpacity",
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onFocus": [Function],
+                                            "type": "number",
+                                            "value": 0.08,
+                                          },
+                                          "meta": Object {
+                                            "active": false,
+                                            "data": Object {},
+                                            "dirty": false,
+                                            "dirtySinceLastSubmit": false,
+                                            "error": undefined,
+                                            "initial": 0.08,
+                                            "invalid": false,
+                                            "length": undefined,
+                                            "modified": false,
+                                            "modifiedSinceLastSubmit": false,
+                                            "pristine": true,
+                                            "submitError": undefined,
+                                            "submitFailed": false,
+                                            "submitSucceeded": false,
+                                            "submitting": false,
+                                            "touched": false,
+                                            "valid": true,
+                                            "validating": false,
+                                            "visited": false,
+                                          },
+                                        }
+                                      }
+                                    >
+                                      <label
+                                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                                        data-shrink={false}
+                                      >
+                                        theme.palette.action.selectedOpacity
+                                      </label>
+                                      <div
+                                        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                        onClick={[Function]}
+                                      >
+                                        <input
+                                          aria-invalid={false}
+                                          autoComplete=""
+                                          autoFocus={false}
+                                          className="MuiInputBase-input MuiInput-input"
+                                          disabled={false}
+                                          name="theme.palette.action.selectedOpacity"
+                                          onAnimationStart={[Function]}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          placeholder=""
+                                          required={false}
+                                          rows=""
+                                          type="number"
+                                          value={0.08}
+                                        />
+                                      </div>
+                                    </div>
+                                    <div
+                                      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                                      data-testid="muiinput"
+                                      field={
+                                        Object {
+                                          "input": Object {
+                                            "checked": undefined,
+                                            "name": "theme.palette.action.disabledOpacity",
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onFocus": [Function],
+                                            "type": "number",
+                                            "value": 0.38,
+                                          },
+                                          "meta": Object {
+                                            "active": false,
+                                            "data": Object {},
+                                            "dirty": false,
+                                            "dirtySinceLastSubmit": false,
+                                            "error": undefined,
+                                            "initial": 0.38,
+                                            "invalid": false,
+                                            "length": undefined,
+                                            "modified": false,
+                                            "modifiedSinceLastSubmit": false,
+                                            "pristine": true,
+                                            "submitError": undefined,
+                                            "submitFailed": false,
+                                            "submitSucceeded": false,
+                                            "submitting": false,
+                                            "touched": false,
+                                            "valid": true,
+                                            "validating": false,
+                                            "visited": false,
+                                          },
+                                        }
+                                      }
+                                    >
+                                      <label
+                                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                                        data-shrink={false}
+                                      >
+                                        theme.palette.action.disabledOpacity
+                                      </label>
+                                      <div
+                                        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                        onClick={[Function]}
+                                      >
+                                        <input
+                                          aria-invalid={false}
+                                          autoComplete=""
+                                          autoFocus={false}
+                                          className="MuiInputBase-input MuiInput-input"
+                                          disabled={false}
+                                          name="theme.palette.action.disabledOpacity"
+                                          onAnimationStart={[Function]}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          placeholder=""
+                                          required={false}
+                                          rows=""
+                                          type="number"
+                                          value={0.38}
+                                        />
+                                      </div>
+                                    </div>
+                                    <div
+                                      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                                      data-testid="muiinput"
+                                      field={
+                                        Object {
+                                          "input": Object {
+                                            "checked": undefined,
+                                            "name": "theme.palette.action.focusOpacity",
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onFocus": [Function],
+                                            "type": "number",
+                                            "value": 0.12,
+                                          },
+                                          "meta": Object {
+                                            "active": false,
+                                            "data": Object {},
+                                            "dirty": false,
+                                            "dirtySinceLastSubmit": false,
+                                            "error": undefined,
+                                            "initial": 0.12,
+                                            "invalid": false,
+                                            "length": undefined,
+                                            "modified": false,
+                                            "modifiedSinceLastSubmit": false,
+                                            "pristine": true,
+                                            "submitError": undefined,
+                                            "submitFailed": false,
+                                            "submitSucceeded": false,
+                                            "submitting": false,
+                                            "touched": false,
+                                            "valid": true,
+                                            "validating": false,
+                                            "visited": false,
+                                          },
+                                        }
+                                      }
+                                    >
+                                      <label
+                                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                                        data-shrink={false}
+                                      >
+                                        theme.palette.action.focusOpacity
+                                      </label>
+                                      <div
+                                        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                        onClick={[Function]}
+                                      >
+                                        <input
+                                          aria-invalid={false}
+                                          autoComplete=""
+                                          autoFocus={false}
+                                          className="MuiInputBase-input MuiInput-input"
+                                          disabled={false}
+                                          name="theme.palette.action.focusOpacity"
+                                          onAnimationStart={[Function]}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          placeholder=""
+                                          required={false}
+                                          rows=""
+                                          type="number"
+                                          value={0.12}
+                                        />
+                                      </div>
+                                    </div>
+                                    <div
+                                      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                                      data-testid="muiinput"
+                                      field={
+                                        Object {
+                                          "input": Object {
+                                            "checked": undefined,
+                                            "name": "theme.palette.action.activatedOpacity",
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onFocus": [Function],
+                                            "type": "number",
+                                            "value": 0.12,
+                                          },
+                                          "meta": Object {
+                                            "active": false,
+                                            "data": Object {},
+                                            "dirty": false,
+                                            "dirtySinceLastSubmit": false,
+                                            "error": undefined,
+                                            "initial": 0.12,
+                                            "invalid": false,
+                                            "length": undefined,
+                                            "modified": false,
+                                            "modifiedSinceLastSubmit": false,
+                                            "pristine": true,
+                                            "submitError": undefined,
+                                            "submitFailed": false,
+                                            "submitSucceeded": false,
+                                            "submitting": false,
+                                            "touched": false,
+                                            "valid": true,
+                                            "validating": false,
+                                            "visited": false,
+                                          },
+                                        }
+                                      }
+                                    >
+                                      <label
+                                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                                        data-shrink={false}
+                                      >
+                                        theme.palette.action.activatedOpacity
+                                      </label>
+                                      <div
+                                        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                        onClick={[Function]}
+                                      >
+                                        <input
+                                          aria-invalid={false}
+                                          autoComplete=""
+                                          autoFocus={false}
+                                          className="MuiInputBase-input MuiInput-input"
+                                          disabled={false}
+                                          name="theme.palette.action.activatedOpacity"
+                                          onAnimationStart={[Function]}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          placeholder=""
+                                          required={false}
+                                          rows=""
+                                          type="number"
+                                          value={0.12}
+                                        />
+                                      </div>
+                                    </div>
+                                    <div
+                                      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                                      data-testid="muiinput"
+                                      field={
+                                        Object {
+                                          "input": Object {
+                                            "checked": undefined,
+                                            "name": "theme.palette.action.active",
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onFocus": [Function],
+                                            "type": "color",
+                                            "value": "rgba(0, 0, 0, 0.54),",
+                                          },
+                                          "meta": Object {
+                                            "active": false,
+                                            "data": Object {},
+                                            "dirty": false,
+                                            "dirtySinceLastSubmit": false,
+                                            "error": undefined,
+                                            "initial": "rgba(0, 0, 0, 0.54),",
+                                            "invalid": false,
+                                            "length": undefined,
+                                            "modified": false,
+                                            "modifiedSinceLastSubmit": false,
+                                            "pristine": true,
+                                            "submitError": undefined,
+                                            "submitFailed": false,
+                                            "submitSucceeded": false,
+                                            "submitting": false,
+                                            "touched": false,
+                                            "valid": true,
+                                            "validating": false,
+                                            "visited": false,
+                                          },
+                                        }
+                                      }
+                                    >
+                                      <label
+                                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                                        data-shrink={false}
+                                      >
+                                        theme.palette.action.active
+                                      </label>
+                                      <div
+                                        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                        onClick={[Function]}
+                                      >
+                                        <input
+                                          aria-invalid={false}
+                                          autoComplete=""
+                                          autoFocus={false}
+                                          className="MuiInputBase-input MuiInput-input"
+                                          disabled={false}
+                                          name="theme.palette.action.active"
+                                          onAnimationStart={[Function]}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          placeholder=""
+                                          required={false}
+                                          rows=""
+                                          type="color"
+                                          value="rgba(0, 0, 0, 0.54),"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div
+                                      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                                      data-testid="muiinput"
+                                      field={
+                                        Object {
+                                          "input": Object {
+                                            "checked": undefined,
+                                            "name": "theme.palette.action.hover",
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onFocus": [Function],
+                                            "type": "color",
+                                            "value": "rgba(0, 0, 0, 0.04),",
+                                          },
+                                          "meta": Object {
+                                            "active": false,
+                                            "data": Object {},
+                                            "dirty": false,
+                                            "dirtySinceLastSubmit": false,
+                                            "error": undefined,
+                                            "initial": "rgba(0, 0, 0, 0.04),",
+                                            "invalid": false,
+                                            "length": undefined,
+                                            "modified": false,
+                                            "modifiedSinceLastSubmit": false,
+                                            "pristine": true,
+                                            "submitError": undefined,
+                                            "submitFailed": false,
+                                            "submitSucceeded": false,
+                                            "submitting": false,
+                                            "touched": false,
+                                            "valid": true,
+                                            "validating": false,
+                                            "visited": false,
+                                          },
+                                        }
+                                      }
+                                    >
+                                      <label
+                                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                                        data-shrink={false}
+                                      >
+                                        theme.palette.action.hover
+                                      </label>
+                                      <div
+                                        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                        onClick={[Function]}
+                                      >
+                                        <input
+                                          aria-invalid={false}
+                                          autoComplete=""
+                                          autoFocus={false}
+                                          className="MuiInputBase-input MuiInput-input"
+                                          disabled={false}
+                                          name="theme.palette.action.hover"
+                                          onAnimationStart={[Function]}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          placeholder=""
+                                          required={false}
+                                          rows=""
+                                          type="color"
+                                          value="rgba(0, 0, 0, 0.04),"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div
+                                      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                                      data-testid="muiinput"
+                                      field={
+                                        Object {
+                                          "input": Object {
+                                            "checked": undefined,
+                                            "name": "theme.palette.action.selected",
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onFocus": [Function],
+                                            "type": "color",
+                                            "value": "rgba(0, 0, 0, 0.08),",
+                                          },
+                                          "meta": Object {
+                                            "active": false,
+                                            "data": Object {},
+                                            "dirty": false,
+                                            "dirtySinceLastSubmit": false,
+                                            "error": undefined,
+                                            "initial": "rgba(0, 0, 0, 0.08),",
+                                            "invalid": false,
+                                            "length": undefined,
+                                            "modified": false,
+                                            "modifiedSinceLastSubmit": false,
+                                            "pristine": true,
+                                            "submitError": undefined,
+                                            "submitFailed": false,
+                                            "submitSucceeded": false,
+                                            "submitting": false,
+                                            "touched": false,
+                                            "valid": true,
+                                            "validating": false,
+                                            "visited": false,
+                                          },
+                                        }
+                                      }
+                                    >
+                                      <label
+                                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                                        data-shrink={false}
+                                      >
+                                        theme.palette.action.selected
+                                      </label>
+                                      <div
+                                        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                        onClick={[Function]}
+                                      >
+                                        <input
+                                          aria-invalid={false}
+                                          autoComplete=""
+                                          autoFocus={false}
+                                          className="MuiInputBase-input MuiInput-input"
+                                          disabled={false}
+                                          name="theme.palette.action.selected"
+                                          onAnimationStart={[Function]}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          placeholder=""
+                                          required={false}
+                                          rows=""
+                                          type="color"
+                                          value="rgba(0, 0, 0, 0.08),"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div
+                                      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                                      data-testid="muiinput"
+                                      field={
+                                        Object {
+                                          "input": Object {
+                                            "checked": undefined,
+                                            "name": "theme.palette.action.disabled",
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onFocus": [Function],
+                                            "type": "color",
+                                            "value": "rgba(0, 0, 0, 0.26)",
+                                          },
+                                          "meta": Object {
+                                            "active": false,
+                                            "data": Object {},
+                                            "dirty": false,
+                                            "dirtySinceLastSubmit": false,
+                                            "error": undefined,
+                                            "initial": "rgba(0, 0, 0, 0.26)",
+                                            "invalid": false,
+                                            "length": undefined,
+                                            "modified": false,
+                                            "modifiedSinceLastSubmit": false,
+                                            "pristine": true,
+                                            "submitError": undefined,
+                                            "submitFailed": false,
+                                            "submitSucceeded": false,
+                                            "submitting": false,
+                                            "touched": false,
+                                            "valid": true,
+                                            "validating": false,
+                                            "visited": false,
+                                          },
+                                        }
+                                      }
+                                    >
+                                      <label
+                                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                                        data-shrink={false}
+                                      >
+                                        theme.palette.action.disabled
+                                      </label>
+                                      <div
+                                        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                        onClick={[Function]}
+                                      >
+                                        <input
+                                          aria-invalid={false}
+                                          autoComplete=""
+                                          autoFocus={false}
+                                          className="MuiInputBase-input MuiInput-input"
+                                          disabled={false}
+                                          name="theme.palette.action.disabled"
+                                          onAnimationStart={[Function]}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          placeholder=""
+                                          required={false}
+                                          rows=""
+                                          type="color"
+                                          value="rgba(0, 0, 0, 0.26)"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div
+                                      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                                      data-testid="muiinput"
+                                      field={
+                                        Object {
+                                          "input": Object {
+                                            "checked": undefined,
+                                            "name": "theme.palette.action.disabledBackground",
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onFocus": [Function],
+                                            "type": "color",
+                                            "value": "rgba(0, 0, 0, 0.12)",
+                                          },
+                                          "meta": Object {
+                                            "active": false,
+                                            "data": Object {},
+                                            "dirty": false,
+                                            "dirtySinceLastSubmit": false,
+                                            "error": undefined,
+                                            "initial": "rgba(0, 0, 0, 0.12)",
+                                            "invalid": false,
+                                            "length": undefined,
+                                            "modified": false,
+                                            "modifiedSinceLastSubmit": false,
+                                            "pristine": true,
+                                            "submitError": undefined,
+                                            "submitFailed": false,
+                                            "submitSucceeded": false,
+                                            "submitting": false,
+                                            "touched": false,
+                                            "valid": true,
+                                            "validating": false,
+                                            "visited": false,
+                                          },
+                                        }
+                                      }
+                                    >
+                                      <label
+                                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                                        data-shrink={false}
+                                      >
+                                        theme.palette.action.disabledBackground
+                                      </label>
+                                      <div
+                                        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                        onClick={[Function]}
+                                      >
+                                        <input
+                                          aria-invalid={false}
+                                          autoComplete=""
+                                          autoFocus={false}
+                                          className="MuiInputBase-input MuiInput-input"
+                                          disabled={false}
+                                          name="theme.palette.action.disabledBackground"
+                                          onAnimationStart={[Function]}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          placeholder=""
+                                          required={false}
+                                          rows=""
+                                          type="color"
+                                          value="rgba(0, 0, 0, 0.12)"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div
+                                      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+                                      data-testid="muiinput"
+                                      field={
+                                        Object {
+                                          "input": Object {
+                                            "checked": undefined,
+                                            "name": "theme.palette.action.focus",
+                                            "onBlur": [Function],
+                                            "onChange": [Function],
+                                            "onFocus": [Function],
+                                            "type": "color",
+                                            "value": "rgba(0, 0, 0, 0.12)",
+                                          },
+                                          "meta": Object {
+                                            "active": false,
+                                            "data": Object {},
+                                            "dirty": false,
+                                            "dirtySinceLastSubmit": false,
+                                            "error": undefined,
+                                            "initial": "rgba(0, 0, 0, 0.12)",
+                                            "invalid": false,
+                                            "length": undefined,
+                                            "modified": false,
+                                            "modifiedSinceLastSubmit": false,
+                                            "pristine": true,
+                                            "submitError": undefined,
+                                            "submitFailed": false,
+                                            "submitSucceeded": false,
+                                            "submitting": false,
+                                            "touched": false,
+                                            "valid": true,
+                                            "validating": false,
+                                            "visited": false,
+                                          },
+                                        }
+                                      }
+                                    >
+                                      <label
+                                        className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                                        data-shrink={false}
+                                      >
+                                        theme.palette.action.focus
+                                      </label>
+                                      <div
+                                        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
+                                        onClick={[Function]}
+                                      >
+                                        <input
+                                          aria-invalid={false}
+                                          autoComplete=""
+                                          autoFocus={false}
+                                          className="MuiInputBase-input MuiInput-input"
+                                          disabled={false}
+                                          name="theme.palette.action.focus"
+                                          onAnimationStart={[Function]}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          placeholder=""
+                                          required={false}
+                                          rows=""
+                                          type="color"
+                                          value="rgba(0, 0, 0, 0.12)"
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
