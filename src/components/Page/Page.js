@@ -21,7 +21,7 @@ export const Page = ({ accessToken, theme, pageRedirect }) => {
       window.history.pushState({}, null, `http://${host}${pageRedirect}`);
       toggleStoryblok();
     }
-  }, [accessToken, page, pageRedirect, togglePage]);
+  }, [accessToken, page, pageRedirect, togglePage, currentAccessToken]);
 
   return (
     <>
