@@ -1,3 +1,7 @@
 const setThemeToLocalStore = theme => window.localStorage.setItem('theme', JSON.stringify(theme));
 
-export { setThemeToLocalStore }
+const removeThemeFromLocalStore = () => window.localStorage.removeItem('theme')
+
+const getThemeFromLocalStore = () => window.localStorage.getItem('theme')
+
+export { setThemeToLocalStore, removeThemeFromLocalStore, getThemeFromLocalStore }

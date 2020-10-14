@@ -9,11 +9,13 @@ import theme from './defaultMuiTheme';
 import AccessToken from './components/AccessToken/AccessToken';
 import ImportTheme from './components/ImportTheme/ImportTheme';
 import ResetTheme from './components/ResetTheme/ResetTheme';
-import { setThemeToLocalStore } from './Utils/localStorage';
+import { setThemeToLocalStore, getThemeFromLocalStore } from './Utils/localStorage';
+
+const locallyStoredTheme = JSON.parse(getThemeFromLocalStore());
 
 const App = () => {
   const [state, setState] = useState({
-    theme,
+    theme: locallyStoredTheme || theme,
     accessToken: process.env.REACT_APP_STORYBLOK_ACCESS_TOKEN,
     pageRedirect: window.location.pathname,
   });
