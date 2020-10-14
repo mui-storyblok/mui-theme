@@ -102,6 +102,7 @@
     "@testing-library/user-event": "^7.2.1",
     "base64url": "^3.0.1",
     "copy-to-clipboard": "^3.3.1",
+    "dotenv-expand": "^5.1.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "jsdom": "^16.2.2",
     "mui-storyblok": "^1.0.93",
