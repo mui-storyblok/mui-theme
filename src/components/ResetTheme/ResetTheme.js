@@ -41,11 +41,9 @@ export const ResetTheme = () => {
           <DialogContentText>
             You will loose any work and the theme will be reset to it's defaults.
           </DialogContentText>
-          <Form onSubmit={onSubmit}>
+          <Form onSubmit={onSubmit} data-testid="submitResetThemeDialog">
             <DialogActions>
-              <Button data-testid="closeResetThemeDialog" onClick={handleClose} color="secondary">
-                close
-              </Button>
+              <Button data-testid="closeResetThemeDialog" onClick={handleClose} color="secondary"> Close </ Button>
               <MuiSubmit buttonText="Reset" variant="contained" />
             </DialogActions>
           </Form>
