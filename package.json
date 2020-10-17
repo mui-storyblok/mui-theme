@@ -105,7 +105,7 @@
     "dotenv-expand": "^5.1.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "jsdom": "^16.2.2",
-    "mui-storyblok": "^1.0.93",
+    "mui-storyblok": "^1.1.12",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
