@@ -139,12 +139,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.palette.type
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -206,12 +201,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.palette.contrastThreshold
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -230,7 +220,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -273,12 +263,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.palette.tonalOffset
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -297,7 +282,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -340,12 +325,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.palette.divider
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -364,7 +344,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="color"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -504,12 +484,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.common.black
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -528,7 +503,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -571,12 +546,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.common.white
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -595,7 +565,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -742,12 +712,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.background.paper
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -766,7 +731,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -809,12 +774,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.background.default
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -833,7 +793,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -980,12 +940,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.primary.light
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -1004,7 +959,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -1047,12 +1002,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.primary.main
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -1071,7 +1021,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -1114,12 +1064,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.primary.dark
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -1138,7 +1083,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -1181,12 +1126,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.primary.contrastText
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -1205,7 +1145,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -1352,12 +1292,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.secondary.light
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -1376,7 +1311,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -1419,12 +1354,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.secondary.main
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -1443,7 +1373,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -1486,12 +1416,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.secondary.dark
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -1510,7 +1435,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -1553,12 +1478,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.secondary.contrastText
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -1577,7 +1497,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -1724,12 +1644,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.error.light
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -1748,7 +1663,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -1791,12 +1706,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.error.main
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -1815,7 +1725,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -1858,12 +1768,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.error.dark
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -1882,7 +1787,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -1925,12 +1830,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.error.contrastText
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -1949,7 +1849,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -2096,12 +1996,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.warning.light
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -2120,7 +2015,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -2163,12 +2058,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.warning.main
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -2187,7 +2077,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -2230,12 +2120,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.warning.dark
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -2254,7 +2139,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -2297,12 +2182,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.warning.contrastText
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -2321,7 +2201,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -2468,12 +2348,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.info.light
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -2492,7 +2367,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -2535,12 +2410,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.info.main
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -2559,7 +2429,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -2602,12 +2472,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.info.dark
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -2626,7 +2491,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -2669,12 +2534,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.info.contrastText
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -2693,7 +2553,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -2840,12 +2700,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.success.light
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -2864,7 +2719,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -2907,12 +2762,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.success.main
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -2931,7 +2781,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -2974,12 +2824,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.success.dark
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -2998,7 +2843,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -3041,12 +2886,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.success.contrastText
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -3065,7 +2905,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -3212,12 +3052,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.grey.50
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -3236,7 +3071,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -3279,12 +3114,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.grey.100
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -3303,7 +3133,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -3346,12 +3176,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.grey.200
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -3370,7 +3195,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -3413,12 +3238,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.grey.300
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -3437,7 +3257,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -3480,12 +3300,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.grey.400
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -3504,7 +3319,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -3547,12 +3362,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.grey.500
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -3571,7 +3381,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -3614,12 +3424,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.grey.600
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -3638,7 +3443,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -3681,12 +3486,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.grey.700
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -3705,7 +3505,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -3748,12 +3548,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.grey.800
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -3772,7 +3567,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -3815,12 +3610,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.grey.900
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -3839,7 +3629,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -3882,12 +3672,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.grey.A100
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -3906,7 +3691,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -3949,12 +3734,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.grey.A200
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -3973,7 +3753,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -4016,12 +3796,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.grey.A400
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -4040,7 +3815,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -4083,12 +3858,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.grey.A700
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -4107,7 +3877,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -4254,12 +4024,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.text.primary
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -4278,7 +4043,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -4321,12 +4086,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.text.secondary
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -4345,7 +4105,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -4388,12 +4148,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.text.disabled
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -4412,7 +4167,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -4455,12 +4210,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.text.hint
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -4479,7 +4229,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -4626,12 +4376,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.action.hoverOpacity
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -4650,7 +4395,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -4693,12 +4438,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.action.selectedOpacity
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -4717,7 +4457,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -4760,12 +4500,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.action.disabledOpacity
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -4784,7 +4519,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -4827,12 +4562,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.action.focusOpacity
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -4851,7 +4581,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -4894,12 +4624,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.action.activatedOpacity
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -4918,7 +4643,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -4961,12 +4686,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.action.active
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -4985,7 +4705,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -5028,12 +4748,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.action.hover
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -5052,7 +4767,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -5095,12 +4810,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.action.selected
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -5119,7 +4829,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -5162,12 +4872,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.action.disabled
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -5186,7 +4891,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -5229,12 +4934,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.action.disabledBackground
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -5253,7 +4953,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -5296,12 +4996,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.palette.action.focus
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -5320,7 +5015,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="color"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -5585,12 +5280,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.typography.htmlFontSize
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -5609,7 +5299,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -5652,12 +5342,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.typography.fontFamily
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -5719,12 +5404,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.typography.fontSize
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -5743,7 +5423,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -5786,12 +5466,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.typography.fontWeightLight
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -5810,7 +5485,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -5853,12 +5528,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.typography.fontWeightRegular
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -5877,7 +5547,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -5920,12 +5590,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.typography.fontWeightMedium
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -5944,7 +5609,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -5987,12 +5652,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.typography.fontWeightBold
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -6011,7 +5671,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -6151,12 +5811,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h1.fontFamily
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -6218,12 +5873,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h1.fontWeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -6242,7 +5892,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -6285,12 +5935,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h1.fontSize
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -6352,12 +5997,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h1.lineHeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -6376,7 +6016,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -6419,12 +6059,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h1.letterSpacing
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -6590,12 +6225,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h2.fontFamily
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -6657,12 +6287,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h2.fontWeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -6681,7 +6306,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -6724,12 +6349,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h2.fontSize
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -6791,12 +6411,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h2.lineHeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -6815,7 +6430,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -6858,12 +6473,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h2.letterSpacing
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -7029,12 +6639,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h3.fontFamily
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -7096,12 +6701,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h3.fontWeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -7120,7 +6720,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -7163,12 +6763,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h3.fontSize
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -7230,12 +6825,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h3.lineHeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -7254,7 +6844,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -7297,12 +6887,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h3.letterSpacing
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -7468,12 +7053,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h4.fontFamily
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -7535,12 +7115,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h4.fontWeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -7559,7 +7134,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -7602,12 +7177,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h4.fontSize
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -7669,12 +7239,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h4.lineHeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -7693,7 +7258,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -7736,12 +7301,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h4.letterSpacing
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -7907,12 +7467,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h5.fontFamily
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -7974,12 +7529,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h5.fontWeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -7998,7 +7548,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -8041,12 +7591,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h5.fontSize
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -8108,12 +7653,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h5.lineHeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -8132,7 +7672,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -8175,12 +7715,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h5.letterSpacing
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -8346,12 +7881,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h6.fontFamily
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -8413,12 +7943,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h6.fontWeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -8437,7 +7962,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -8480,12 +8005,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h6.fontSize
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -8547,12 +8067,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h6.lineHeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -8571,7 +8086,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -8614,12 +8129,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.h6.letterSpacing
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -8785,12 +8295,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.subtitle1.fontFamily
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -8852,12 +8357,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.subtitle1.fontWeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -8876,7 +8376,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -8919,12 +8419,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.subtitle1.fontSize
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -8986,12 +8481,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.subtitle1.lineHeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -9010,7 +8500,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -9053,12 +8543,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.subtitle1.letterSpacing
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -9224,12 +8709,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.subtitle2.fontFamily
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -9291,12 +8771,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.subtitle2.fontWeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -9315,7 +8790,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -9358,12 +8833,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.subtitle2.fontSize
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -9425,12 +8895,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.subtitle2.lineHeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -9449,7 +8914,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -9492,12 +8957,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.subtitle2.letterSpacing
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -9663,12 +9123,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.body1.fontFamily
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -9730,12 +9185,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.body1.fontWeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -9754,7 +9204,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -9797,12 +9247,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.body1.fontSize
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -9864,12 +9309,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.body1.lineHeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -9888,7 +9328,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -9931,12 +9371,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.body1.letterSpacing
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -10102,12 +9537,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.body2.fontFamily
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -10169,12 +9599,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.body2.fontWeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -10193,7 +9618,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -10236,12 +9661,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.body2.fontSize
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -10303,12 +9723,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.body2.lineHeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -10327,7 +9742,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -10370,12 +9785,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.body2.letterSpacing
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -10541,12 +9951,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.button.fontFamily
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -10608,12 +10013,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.button.fontWeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -10632,7 +10032,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -10675,12 +10075,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.button.fontSize
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -10742,12 +10137,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.button.lineHeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -10766,7 +10156,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -10809,12 +10199,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.button.textTransform
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -10980,12 +10365,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.caption.fontFamily
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -11047,12 +10427,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.caption.fontWeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -11071,7 +10446,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -11114,12 +10489,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.caption.fontSize
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -11181,12 +10551,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.caption.lineHeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -11205,7 +10570,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -11248,12 +10613,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.caption.letterSpacing
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -11419,12 +10779,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.overline.fontFamily
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -11486,12 +10841,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.overline.fontWeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -11510,7 +10860,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -11553,12 +10903,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.overline.fontSize
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -11620,12 +10965,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.overline.lineHeight
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -11644,7 +10984,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -11687,12 +11027,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.overline.letterSpacing
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -11754,12 +11089,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.typography.overline.textTransform
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -11932,12 +11262,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.shape.borderRadius
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -11956,7 +11281,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -12200,12 +11525,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.transitions.easing.easeInOut
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -12267,12 +11587,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.transitions.easing.easeOut
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -12334,12 +11649,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.transitions.easing.easeIn
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -12401,12 +11711,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.transitions.easing.sharp
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -12572,12 +11877,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.transitions.duration.shortest
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -12596,7 +11896,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -12639,12 +11939,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.transitions.duration.shorter
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -12663,7 +11958,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -12706,12 +12001,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.transitions.duration.short
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -12730,7 +12020,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -12773,12 +12063,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.transitions.duration.standard
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -12797,7 +12082,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -12840,12 +12125,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.transitions.duration.complex
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -12864,7 +12144,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -12907,12 +12187,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.transitions.duration.enteringScreen
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -12931,7 +12206,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -12974,12 +12249,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                   }
                                 }
                               >
-                                <label
-                                  className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                                  data-shrink={false}
-                                >
-                                  theme.transitions.duration.leavingScreen
-                                </label>
+                                
                                 <div
                                   className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                                   onClick={[Function]}
@@ -12998,7 +12268,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                                     placeholder=""
                                     required={false}
                                     rows=""
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                 </div>
@@ -13152,12 +12422,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.zIndex.mobileStepper
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -13176,7 +12441,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -13219,12 +12484,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.zIndex.speedDial
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -13243,7 +12503,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -13286,12 +12546,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.zIndex.appBar
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -13310,7 +12565,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -13353,12 +12608,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.zIndex.drawer
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -13377,7 +12627,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -13420,12 +12670,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.zIndex.modal
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -13444,7 +12689,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -13487,12 +12732,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.zIndex.snackbar
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -13511,7 +12751,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
@@ -13554,12 +12794,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                     }
                   }
                 >
-                  <label
-                    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
-                    data-shrink={false}
-                  >
-                    theme.zIndex.tooltip
-                  </label>
+                  
                   <div
                     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"
                     onClick={[Function]}
@@ -13578,7 +12813,7 @@ exports[`<RenderForm /> snapshot 1`] = `
                       placeholder=""
                       required={false}
                       rows=""
-                      type="number"
+                      type="text"
                       value=""
                     />
                   </div>
