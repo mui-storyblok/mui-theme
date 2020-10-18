@@ -8,15 +8,21 @@ import GoogleFonts from './components/GoogleFonts/GoogleFonts';
 import theme from './defaultMuiTheme';
 import AccessToken from './components/AccessToken/AccessToken';
 import ImportTheme from './components/ImportTheme/ImportTheme';
+import ResetTheme from './components/ResetTheme/ResetTheme';
+import { setThemeToLocalStore, getThemeFromLocalStore } from './Utils/localStorage';
+
+const locallyStoredTheme = JSON.parse(getThemeFromLocalStore());
 
 const App = () => {
   const [state, setState] = useState({
-    theme,
+    theme: locallyStoredTheme || theme,
     accessToken: process.env.REACT_APP_STORYBLOK_ACCESS_TOKEN,
     pageRedirect: window.location.pathname,
   });
 
   const onSubmit = async (values) => {
+    setThemeToLocalStore(values.theme);
+
     setState({
       theme: values.theme,
       accessToken: state.accessToken,
@@ -50,6 +56,7 @@ const App = () => {
             <ViewThemeDialog theme={state.theme} />
             <GoogleFonts />
             <ImportTheme {...sharedProps} setState={setState} />
+            <ResetTheme />
           </Grid>
           <Grid xs={12}>
             <ThemeForm theme={state.theme} onSubmit={onSubmit} />
