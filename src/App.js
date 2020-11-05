@@ -16,7 +16,8 @@ const locallyStoredTheme = JSON.parse(getThemeFromLocalStore());
 const App = () => {
   const [state, setState] = useState({
     theme: locallyStoredTheme || theme,
-    accessToken: process.env.REACT_APP_STORYBLOK_ACCESS_TOKEN,
+    // This is the access token to the Material U/I demo page. To access your own pages, update this token
+    accessToken: '9K1dqG8gQkc1jeVbOWRDUAtt',
     pageRedirect: window.location.pathname,
   });
 
