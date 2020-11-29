@@ -9,6 +9,7 @@ import theme from './defaultMuiTheme';
 import AccessToken from './components/AccessToken/AccessToken';
 import ImportTheme from './components/ImportTheme/ImportTheme';
 import ResetTheme from './components/ResetTheme/ResetTheme';
+import AddOrLoadTheme from './components/AddOrLoadTheme/AddOrLoadTheme';
 import { setThemeToLocalStore, getThemeFromLocalStore } from './Utils/localStorage';
 
 const locallyStoredTheme = JSON.parse(getThemeFromLocalStore());
@@ -52,20 +53,26 @@ const App = () => {
           direction="row"
           style={{ overflow: 'scroll', maxHeight: '1000px', marginTop: '100px' }}
         >
-          <Grid xs={12}>
+          <Grid xs={12} item>
             <AccessToken {...sharedProps} setState={setState} />
             <ViewThemeDialog theme={state.theme} />
             <GoogleFonts />
             <ImportTheme {...sharedProps} setState={setState} />
             <ResetTheme />
+            <AddOrLoadTheme />
           </Grid>
-          <Grid xs={12}>
+
+          <Grid xs={12} item>
             <ThemeForm theme={state.theme} onSubmit={onSubmit} />
           </Grid>
+
         </Grid>
-        <Grid item xs={8} style={{ overflow: 'scroll', maxHeight: '1000px' }}>
+
+        <Grid container xs={8} style={{ overflow: 'scroll', maxHeight: '1000px' }}>
+          {console.log(sharedProps)}
           <Page {...sharedProps} />
         </Grid>
+
       </Grid>
     </BrowserRouter>
   );
