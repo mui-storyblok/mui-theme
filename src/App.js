@@ -69,7 +69,6 @@ const App = () => {
         </Grid>
 
         <Grid container xs={8} style={{ overflow: 'scroll', maxHeight: '1000px' }}>
-          {console.log(sharedProps)}
           <Page {...sharedProps} />
         </Grid>
 
