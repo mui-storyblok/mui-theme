@@ -59,7 +59,7 @@ const App = () => {
             <GoogleFonts />
             <ImportTheme {...sharedProps} setState={setState} />
             <ResetTheme />
-            <AddOrLoadTheme />
+            <AddOrLoadTheme activeTheme={state.theme}/>
           </Grid>
 
           <Grid xs={12} item>

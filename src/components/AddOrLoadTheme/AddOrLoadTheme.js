@@ -10,7 +10,7 @@ import { AddTheme } from './AddTheme/AddTheme'
 import { ListThemes } from './ListThemes/ListThemes'
 import themeService from '../../Utils/themes';
 
-const AddOrLoadTheme = () => {
+const AddOrLoadTheme = ({ activeTheme }) => {
 	const [state, setState] = useState({
 		open: false,
 		themes: []
@@ -29,7 +29,7 @@ const AddOrLoadTheme = () => {
 
 	const onSubmit = async (values) => {
 		try {
-			const theme = await themeService.addTheme(values.name, JSON.stringify(theme));
+			const theme = await themeService.addTheme(values.name, JSON.stringify(activeTheme));
 			setState({
 				...state,
 				themes: [theme, ...state.themes]
