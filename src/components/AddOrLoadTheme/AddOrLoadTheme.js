@@ -10,7 +10,7 @@ import { AddTheme } from './AddTheme/AddTheme'
 import { ListThemes } from './ListThemes/ListThemes'
 import themeService from '../../Utils/themes';
 
-export const AddOrLoadTheme = () => {
+const AddOrLoadTheme = () => {
 	const [state, setState] = useState({
 		open: false,
 		themes: []
